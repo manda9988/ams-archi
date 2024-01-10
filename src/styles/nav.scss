@@ -1,0 +1,45 @@
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.2rem;
+	height: 92px;
+	background: rgb(30, 30, 30);
+}
+
+.nav-links {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 8px;
+	font-weight: 500;
+}
+.nav-links a {
+	transition: all 0.5s ease-in-out; // transition fluide pour le changement de couleur
+}
+.nav-links a:hover {
+	color: #383838; // couleur gris clair pour le survol
+}
+
+.logo {
+	font-size: 1.6rem;
+	font-weight: 900;
+	color: white;
+	font-family: Impact, sans-serif;
+	letter-spacing: -6px;
+	transform: scaleX(1.8) scaleY(0.6);
+}
+
+.menu-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 26px;
+	height: 22px;
+	cursor: pointer;
+	.bar {
+		height: 2px;
+		width: 100%;
+		background-color: white;
+		transition: all 0.3s ease-in-out;
+	}
+}

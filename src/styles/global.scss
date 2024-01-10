@@ -1,0 +1,64 @@
+// global.scss
+*,
+*::before,
+*::after {
+	box-sizing: border-box; // Contenu, padding et border inclus dans la largeur/hauteur de l'élément
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%; // Définit une taille de police de base pour le rem
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	line-height: 1.6; // Espacement de ligne par défaut pour une meilleure lisibilité
+	width: 100%;
+	overflow-x: hidden; // Prévient le défilement horizontal si du contenu dépasse
+}
+
+// Éléments de liste
+ul,
+ol {
+	list-style: none; // Supprime les puces par défaut des listes
+}
+
+// Liens
+a {
+	text-decoration: none; // Supprime le soulignement des liens
+	color: inherit; // Les liens utilisent la couleur de texte de l'élément parent
+}
+
+// Images et vidéos
+img,
+video {
+	max-width: 100%; // S'assure que les médias ne débordent pas de leur conteneur
+	height: auto; // Garde le ratio original de l'image/vidéo
+}
+
+// Formulaires
+input,
+button,
+textarea,
+select {
+	font: inherit; // Les éléments de formulaire utilisent la police de l'élément parent
+}
+
+// Boutons et liens de type bouton
+button,
+a[role='button'] {
+	cursor: pointer; // Montre une main au survol pour indiquer qu'il s'agit d'un élément cliquable
+}
+
+// Supprime les bordures des boutons et champs lorsqu'ils sont cliqués/touchés
+:focus {
+	outline: none;
+}
+
+// Accessibilité pour le focus visible uniquement au clavier
+:focus:not(:focus-visible) {
+	outline: none;
+}
+
+// Assurez-vous d'inclure des styles pour :focus-visible pour l'accessibilité
