@@ -1,0 +1,43 @@
+// src/styles/home.scss
+.home-background {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-image: url('/images/img1.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	padding-bottom: 4vh;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+	text-transform: uppercase;
+	font-size: 80px;
+	line-height: 64px;
+	letter-spacing: -2px;
+	width: 660px;
+	font-weight: 700;
+	text-align: center;
+	transform: scaleY(0.9);
+	margin-bottom: 46px;
+	// background: lightgreen;
+}
+
+.arrow-down {
+	cursor: pointer;
+	background: rgb(255, 0, 0);
+}
+
+.fa-arrow-down {
+	font-size: 24px; // Taille de l'icône
+	color: white; // Couleur de l'icône
+}

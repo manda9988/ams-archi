@@ -3,15 +3,15 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.2rem;
-	height: 92px;
-	background: rgb(30, 30, 30);
+	height: 70px;
+	background: rgba(43, 43, 43, 0.35);
 }
 
 .nav-links {
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 8px;
-	font-weight: 500;
+	font-weight: 700;
 }
 .nav-links a {
 	transition: all 0.5s ease-in-out; // transition fluide pour le changement de couleur
