@@ -7,18 +7,22 @@
 		<div class="meat"></div>
 		<div class="bottom-bun"></div>
 	</label>
+	<div class="nav-container">
+		<div class="links">
+			<div class="nav-links">
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#projects">Projects</a>
+				<a href="#contact">Contact</a>
+			</div>
+			<div class="social-links">
+				<a href="#instagram">Instagram</a>
+				<a href="#linkedin">LinkedIn</a>
+			</div>
+		</div>
 
-	<div class="nav-links">
-		<a href="#home">Home</a>
-		<a href="#about">About</a>
-		<a href="#projects">Projects</a>
-		<a href="#contact">Contact</a>
+		<div class="copy-right">V.A © All Rights Reserved. 2024</div>
 	</div>
-	<div class="social-links">
-		<a href="#instagram">Instagram</a>
-		<a href="#linkedin">LinkedIn</a>
-	</div>
-	<p class="copy-right">FSA © All Rights Reserved. 2023</p>
 </nav>
 
 <style>
