@@ -2,66 +2,50 @@
 .topHome {
 	display: flex;
 	flex-direction: column;
-	justify-content: center; // Centrer le contenu verticalement
-	align-items: flex-start; // Aligner le contenu à gauche
-	position: relative; // Pas besoin de 'absolute' ici
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 100vh; // Hauteur fixe pour occuper l'écran entier
-	background: url('/images/topHomeImg.jpeg');
-	background-size: cover;
-	background-position: center;
-}
-
-.title {
-	background: rgba(0, 0, 0, 0.085);
-	text-transform: uppercase;
-	color: white;
-	letter-spacing: -2px;
-	line-height: 0.8;
-	padding: 6px;
-	border-radius: 4px;
-	margin-left: 30px; // Positionnement à gauche avec une marge
-	transform: translateY(-150%); // Ajuster si nécessaire pour le centrage vertical
-	top: 50%; // Position verticale centrée
-	position: absolute; // Position absolue dans '.topHome'
-}
-
-h1 {
-	font-size: 31px;
-	transform: scaleY(0.8);
-	font-weight: 700;
-	margin: 0;
-	color: rgb(224, 224, 224);
-}
-
-h2 {
-	font-size: 35px;
-	transform: scaleY(0.9);
-	margin: 0;
-}
-
-.arrow-down {
-	cursor: pointer;
-	background: rgba(48, 48, 48, 0.511);
-	padding: 10px;
-	border-radius: 150%;
-	display: flex;
 	justify-content: center;
-	align-items: center;
-	position: absolute;
-	bottom: 4vh; // Ajusté pour s'aligner avec le padding du bas de '.topHome'
-	left: 50%; // Centré horizontalement
-	transform: translateX(-50%); // Centrage horizontal
-}
+	align-items: flex-start;
+	position: relative;
+	height: 100vh;
+	background: url('/images/topHomeImg.jpeg') center/cover no-repeat;
 
-.fa-arrow-down {
-	font-size: 14px;
-	color: white;
-}
+	.title {
+		text-transform: uppercase;
+		letter-spacing: -2px;
+		line-height: 0.8;
+		padding: 6px;
+		border-radius: 4px;
+		margin-left: 30px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		h1 {
+			font-size: 31px;
+			transform: scaleY(0.8);
+			font-weight: 700;
+			margin: 0;
+			color: rgb(209, 209, 209);
+		}
 
-.about {
-	background: whitesmoke;
-	// Pas besoin de 'position' ou 'z-index' ici
+		h2 {
+			font-size: 35px;
+			transform: scaleY(0.9);
+			margin: 0;
+			color: white;
+			font-weight: 500;
+		}
+	}
+
+	.arrow-down {
+		cursor: pointer;
+		background: rgba(48, 48, 48, 0.511);
+		height: 40px;
+		width: 40px;
+		border-radius: 100%;
+		position: absolute;
+		bottom: 3vh;
+		left: 50%;
+		transform: translate(-50%);
+		font-size: 12px;
+		color: white;
+	}
 }
