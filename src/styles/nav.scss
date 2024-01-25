@@ -3,9 +3,7 @@
 .navbar {
 	position: fixed;
 	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	right: 0;
 	z-index: 1;
 }
 
@@ -20,7 +18,7 @@
 	right: 3.4vh;
 	width: 20px;
 	height: 20px;
-	z-index: 5;
+	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -54,14 +52,12 @@
 }
 
 .links {
-	// background: rgb(20, 215, 66);
 	padding: 10px 0;
 }
 
 .nav-links,
 .social-links,
 .copy-right {
-	// background: rgb(82, 82, 252);
 	text-align: right;
 	transform: scaleY(0.9);
 }
@@ -69,20 +65,22 @@
 .nav-links {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-end;
 	font-size: 2.4rem;
-	font-weight: 400;
+	font-weight: 700;
 	margin-bottom: 60px;
 	letter-spacing: -2px;
 }
 
 .nav-links a,
 .social-links a {
+	display: inline-block;
+	width: max-content;
 	margin: 2px 0;
-	color: white;
+	color: rgb(229, 229, 229);
 	text-transform: uppercase;
 	cursor: pointer;
-	transition: color 0.3s ease;
-	// background: rgb(255, 95, 95);
+	transition: color 0.3s ease-in-out;
 }
 
 .nav-links a:hover,
@@ -93,15 +91,17 @@
 .social-links {
 	display: flex;
 	flex-direction: column;
-	font-size: 1.1rem;
-	font-weight: 400;
+	align-items: flex-end;
+	font-size: 1rem;
+	font-weight: 500;
 	// letter-spacing: 1px;
 }
 
 .copy-right {
-	color: white;
-	font-size: 1rem;
-	padding: 0.5rem 0;
+	color: rgb(68, 68, 68);
+	font-size: 0.6rem;
+	font-weight: 500;
+	padding: 0.5rem;
 }
 
 #toggle:checked ~ .nav-container {

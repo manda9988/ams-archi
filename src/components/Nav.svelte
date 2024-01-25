@@ -21,7 +21,7 @@
 			</div>
 		</div>
 
-		<div class="copy-right">V.A © All Rights Reserved. 2024</div>
+		<div class="copy-right">AV.Prod © All Rights Reserved. 2024</div>
 	</div>
 </nav>
 
