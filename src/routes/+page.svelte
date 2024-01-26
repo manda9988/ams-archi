@@ -1,6 +1,7 @@
 <!-- home/+page.svelte -->
 <script>
 	import About from '../components/About.svelte';
+	import Projects from '../components/Projects.svelte';
 </script>
 
 <div class="topHome">
@@ -14,6 +15,7 @@
 </div>
 
 <About />
+<Projects />
 
 <style>
 	@import '../styles/home.scss';

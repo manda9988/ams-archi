@@ -1,0 +1,60 @@
+// about.scss
+.about {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0.5rem 2rem;
+	color: rgb(45, 45, 45);
+
+	// background: lightgreen;
+
+	.mini-nav {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+		// background: lightsalmon;
+
+		a {
+			text-decoration: none;
+			color: #000;
+			font-weight: 400;
+            letter-spacing: 1px;
+			font-size: 0.6rem;
+		}
+	}
+
+	.para-about {
+		.paraIntro {
+			margin-bottom: 3.2rem;
+			font-weight: 500;
+			font-size: 1.5rem;
+			line-height: 1.2;
+            letter-spacing: -0.4px;
+			// background: lightblue;
+		}
+
+		.paraUnder {
+			display: flex;
+			gap: 1.8rem;
+			font-weight: 300;
+			font-size: 1rem;
+			line-height: 19px;
+
+			.paraLeft,
+			.paraRight {
+				flex: 1;
+				p {
+					margin-bottom: 0.8rem;
+                    // background: rgb(255, 179, 179);
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.about .para-about .paraUnder {
+		flex-direction: column;
+	}
+}
