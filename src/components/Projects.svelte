@@ -1,22 +1,27 @@
 <!-- projects.svelte -->
 
-<div class="projects-gallery">
-	<a href="#project1" class="project-item">
-		<p>Project1</p>
-	</a>
-	<a href="#project2" class="project-item">
-		<p>Project2</p>
-	</a>
-	<a href="#project3" class="project-item">
-		<p>Project3</p>
-	</a>
-	<a href="#project4" class="project-item">
-		<p>Project4</p>
-	</a>
-	<a href="#project5" class="project-item">
-		<p>Project5</p>
-	</a>
-	<a href="#project6" class="project-item">
-		<p>Project6</p>
-	</a>
-</div>
+<script>
+	import { projects } from '../lib/projectsData';
+</script>
+
+<section class="section-projects">
+	<h2>My Projects</h2>
+
+	<div class="projects-gallery">
+		{#each projects as project}
+			<a
+				href={`#${project.id}`}
+				class="project-item"
+				style={`background-image: url('${project.imageUrl}')`}
+			>
+				<figure>
+					<figcaption>{project.name}</figcaption>
+				</figure>
+			</a>
+		{/each}
+	</div>
+</section>
+
+<style>
+	@import '../styles/projects.scss';
+</style>
