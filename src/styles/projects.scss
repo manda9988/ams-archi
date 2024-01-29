@@ -1,45 +1,70 @@
 .section-projects {
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 20px;
-	// background: #ff7f7f;
 
 	h2 {
-		text-transform: uppercase;
-		font-size: 42px;
-		font-weight: 600;
-		letter-spacing: -5px;
-		color: rgb(36, 36, 36);
+		font-size: 40px;
+		font-weight: 700;
+		letter-spacing: -3px;
+		transform: scaleY(0.8);
+		color: rgb(45, 45, 45);
 		text-align: center;
-		margin-bottom: 40px;
+		margin-bottom: 36px;
 	}
 
 	.projects-gallery {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 20px;
+		gap: 14px;
 		justify-items: center;
 	}
 
 	.project-item {
 		position: relative;
 		overflow: hidden;
-		border-radius: 10px;
+		border-radius: 4px;
 		height: 200px;
 		width: 100%;
-		background-size: cover;
-		background-position: center;
 		transition: transform 0.3s ease-in-out;
+		cursor: pointer;
 
 		&:hover {
-			transform: scale(1.02);
+			.project-image::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(28, 28, 28, 0.83);
+			}
+
+			figcaption {
+				opacity: 1;
+			}
 		}
+	}
+
+	.project-image {
+		height: 100%;
+		width: 100%;
+		transition: transform 0.3s ease-in-out;
+		position: relative;
+		background-size: cover;
+		background-position: center;
 	}
 
 	figcaption {
 		position: absolute;
-		bottom: 10px;
-		left: 10px;
-		color: white;
-		font-size: 1.4em;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: rgb(238, 238, 238);
+		font-size: 1.2em;
+		font-weight: 500;
+		letter-spacing: -1px;
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+		pointer-events: none;
 	}
 }

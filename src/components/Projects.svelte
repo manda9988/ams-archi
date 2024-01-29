@@ -5,15 +5,13 @@
 </script>
 
 <section class="section-projects">
-	<h2>My Projects</h2>
+	<!-- <p>Last</p> -->
+	<h2>Last Projects</h2>
 
 	<div class="projects-gallery">
 		{#each projects as project}
-			<a
-				href={`#${project.id}`}
-				class="project-item"
-				style={`background-image: url('${project.imageUrl}')`}
-			>
+			<a href={`#${project.id}`} class="project-item">
+				<div class="project-image" style={`background-image: url('${project.imageUrl}')`}></div>
 				<figure>
 					<figcaption>{project.name}</figcaption>
 				</figure>
