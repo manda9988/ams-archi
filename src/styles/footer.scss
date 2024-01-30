@@ -1,0 +1,67 @@
+// footer.scss
+footer {
+	background: rgb(22, 22, 22);
+	height: 200px;
+	.footer-container {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px;
+		// margin-bottom: 50px;
+		// color: #fff;
+
+		.address-section,
+		.contact-section,
+		.social-section {
+			display: flex;
+			flex-direction: column;
+			width: 30%;
+		}
+
+		.contact-section {
+			text-align: center;
+		}
+		.social-section {
+			text-align: right;
+		}
+
+		h2 {
+			font-size: 0.6em;
+			font-weight: 500;
+			margin-bottom: 10px;
+			color: rgb(99, 99, 99);
+		}
+
+		p {
+			font-size: 0.7em;
+			font-weight: 600;
+
+			line-height: 1.6;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+
+			li {
+				margin-bottom: 5px;
+
+				a {
+					color: #fff;
+					text-decoration: none;
+					font-size: 0.7em;
+					font-weight: 600;
+
+					&:hover {
+						color: #939393;
+					}
+				}
+			}
+		}
+	}
+
+	.copy-right {
+		text-align: center;
+		padding: 10px 0;
+		font-size: 0.6em;
+	}
+}
