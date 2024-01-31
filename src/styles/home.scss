@@ -55,4 +55,20 @@
 			background: rgba(55, 55, 55, 0.843);
 		}
 	}
+
+	@media (max-width: 768px) {
+		.title {
+			h1 {
+				font-size: 21px;
+			}
+
+			h2 {
+				font-size: 25px;
+			}
+		}
+		.arrow-down {
+			height: 30px;
+			width: 30px;
+		}
+	}
 }

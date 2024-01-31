@@ -1,13 +1,12 @@
 // footer.scss
 footer {
 	background: rgb(22, 22, 22);
-	height: 200px;
 	.footer-container {
 		display: flex;
 		justify-content: space-between;
 		padding: 20px;
-		// margin-bottom: 50px;
-		// color: #fff;
+		margin-bottom: 50px;
+		color: #fff;
 
 		.address-section,
 		.contact-section,
@@ -63,5 +62,28 @@ footer {
 		text-align: center;
 		padding: 10px 0;
 		font-size: 0.6em;
+	}
+
+	@media (max-width: 768px) {
+		.footer-container {
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 6px;
+
+			.address-section,
+			.contact-section,
+			.social-section {
+				width: 100%;
+				text-align: center;
+			}
+
+			.address-section,
+			.contact-section {
+				margin-bottom: 20px;
+			}
+			.address-section {
+				margin-top: 20px;
+			}
+		}
 	}
 }
