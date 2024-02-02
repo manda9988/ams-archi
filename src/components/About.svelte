@@ -1,11 +1,6 @@
 <!-- about.svelte -->
 
 <div class="about">
-	<nav class="mini-nav">
-		<a href="#projects">PROJECTS</a>
-		<a href="#contact">CONTACT</a>
-	</nav>
-
 	<div class="para-about">
 		<div class="paraIntro">
 			<p>
