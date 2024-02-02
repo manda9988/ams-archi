@@ -3,7 +3,7 @@
 	padding: 20px;
 
 	h2 {
-		font-size: 40px;
+		font-size: 2.8rem;
 		font-weight: 700;
 		letter-spacing: -3px;
 		transform: scaleY(0.9);
@@ -66,5 +66,17 @@
 		opacity: 0;
 		transition: opacity 0.3s ease-in-out;
 		pointer-events: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.section-projects {
+		margin-top: 20px;
+		padding: 20px 30px 60px;
+
+		h2 {
+			font-size: 2.4rem;
+			margin-bottom: 28px;
+		}
 	}
 }

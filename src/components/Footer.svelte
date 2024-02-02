@@ -14,7 +14,7 @@
 			<p>+590 690 30 81 20</p>
 		</div>
 		<div class="social-section">
-			<h2>FOLLOW US</h2>
+			<h2>FOLLOW ME</h2>
 			<ul>
 				<li><a href="https://instagram.com">INSTAGRAM</a></li>
 				<li><a href="https://twitter.com">TWITTER</a></li>

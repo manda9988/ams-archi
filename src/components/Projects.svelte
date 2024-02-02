@@ -5,7 +5,7 @@
 </script>
 
 <section class="section-projects">
-	<!-- <p>Last</p> -->
+	
 	<h2>Last Projects</h2>
 
 	<div class="projects-gallery">

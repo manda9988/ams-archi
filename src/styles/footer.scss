@@ -28,32 +28,20 @@ footer {
 			font-weight: 500;
 			margin-bottom: 10px;
 			color: rgb(99, 99, 99);
+			// background: greenyellow;
 		}
 
-		p {
+		p,
+		li {
 			font-size: 0.7em;
 			font-weight: 600;
-
-			line-height: 1.6;
+			margin-bottom: 5px;
+			// background: rgb(255, 71, 71);
 		}
 
-		ul {
-			list-style: none;
-			padding: 0;
-
-			li {
-				margin-bottom: 5px;
-
-				a {
-					color: #fff;
-					text-decoration: none;
-					font-size: 0.7em;
-					font-weight: 600;
-
-					&:hover {
-						color: #939393;
-					}
-				}
+		li {
+			&:hover {
+				color: #939393;
 			}
 		}
 	}
@@ -63,17 +51,19 @@ footer {
 		padding: 10px 0;
 		font-size: 0.6em;
 	}
+}
 
-	@media (max-width: 768px) {
+@media (max-width: 768px) {
+	footer {
 		.footer-container {
 			flex-direction: column;
 			align-items: center;
-			margin-bottom: 6px;
+			margin-bottom: 32px;
 
 			.address-section,
 			.contact-section,
 			.social-section {
-				width: 100%;
+				width: 90%;
 				text-align: center;
 			}
 
