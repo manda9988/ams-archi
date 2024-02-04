@@ -10,14 +10,12 @@ footer {
 		margin: 0 auto 60px;
 		width: 80%;
 		color: #e7e7e7;
-		// background: rgb(0, 67, 144);
 
 		.address-section,
 		.contact-section,
 		.social-section {
 			display: flex;
 			flex-direction: column;
-			// background: rgba(0, 102, 46, 0.247);
 		}
 		.address-section {
 			width: 25%;
@@ -47,7 +45,6 @@ footer {
 			font-size: 0.8em;
 			font-weight: 500;
 			margin-bottom: 6px;
-			// background: rgba(45, 57, 189, 0.188);
 		}
 
 		a {
@@ -60,22 +57,22 @@ footer {
 	}
 
 	.copy-right {
-		// text-align: center;
 		padding: 18px;
 		font-size: 0.6em;
+		font-weight: 300;
 		color: rgb(98, 98, 98);
 		width: 100%;
-		// margin: 10px 20px;
 		background: rgba(0, 0, 0, 0.12);
 	}
 }
 
 @media (max-width: 768px) {
 	footer {
+		padding-top: 20px;
 		.footer-container {
 			flex-direction: column;
 			align-items: center;
-			margin-bottom: 32px;
+			margin-bottom: 38px;
 
 			.address-section,
 			.contact-section,
@@ -91,6 +88,27 @@ footer {
 			.address-section {
 				margin-top: 20px;
 			}
+		}
+		.copy-right {
+			text-align: center;
+		}
+	}
+}
+@media (max-width: 550px) {
+	footer {
+		padding-top: 20px;
+		.footer-container {
+			h2 {
+				font-size: 0.5em;
+			}
+
+			p,
+			li {
+				font-size: 0.7em;
+			}
+		}
+		.copy-right {
+			font-size: 0.5em;
 		}
 	}
 }

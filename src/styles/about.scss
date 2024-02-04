@@ -1,17 +1,17 @@
 // about.scss
 .about {
 	width: 100%;
-	padding: 1rem 3rem;
+	margin-top: 50px;
 	color: rgb(45, 45, 45);
-	// background: green;
+	// background: blue;
 
 	.para-about {
 		text-align: justify;
 		width: 80%;
-		margin: 20px auto;
+		margin: 20px auto 60px;
 		// background: red;
 		.paraIntro {
-			margin-bottom: 3.2rem;
+			margin-bottom: 2rem;
 			font-weight: 600;
 			font-size: 1.5rem;
 			line-height: 1.2;
@@ -27,7 +27,6 @@
 
 			.paraLeft,
 			.paraRight {
-				// background: rgb(69, 181, 255);
 				flex: 1;
 				p {
 					margin-bottom: 0.8rem;
@@ -49,6 +48,13 @@
 				font-size: 0.9rem;
 				gap: 1rem;
 			}
+		}
+	}
+}
+@media (max-width: 550px) {
+	.about {
+		.para-about {
+			width: 74%;
 		}
 	}
 }

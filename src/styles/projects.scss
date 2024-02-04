@@ -92,3 +92,18 @@
 		}
 	}
 }
+@media (max-width: 550px) {
+	.section-projects {
+		.projects-gallery {
+			width: 75%;
+			grid-template-columns: repeat(1, 1fr);
+			.project-item {
+				height: 200px;
+			}
+		}
+
+		h2 {
+			font-size: 2.2rem;
+		}
+	}
+}
