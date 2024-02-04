@@ -50,7 +50,7 @@
 		align-items: flex-end;
 		padding: 85px 20px 20px;
 		transform: translateX(100%);
-		transition: all 6.6s ease-in-out;
+		transition: transform 0.8s ease-in-out;
 	}
 
 	.links {
@@ -82,15 +82,24 @@
 		font-weight: 500;
 	}
 
+	.social-links p {
+		color: rgb(120, 120, 120);
+		font-size: 0.7rem;
+		font-weight: 400;
+		margin-bottom: 5px;
+		// background: rgb(255, 69, 69);
+	}
+
 	.nav-links a,
 	.social-links a {
 		display: inline-block;
 		width: max-content;
-		margin: 2px 0;
+		margin: 2px 0 4px;
 		color: rgb(229, 229, 229);
 		text-transform: uppercase;
 		cursor: pointer;
 		transition: color 0.3s ease-in-out;
+		// background: green;
 	}
 
 	.nav-links a:hover,

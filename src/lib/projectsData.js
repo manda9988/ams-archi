@@ -30,10 +30,10 @@ export const projects = [
 		description: 'Description for Project 5',
 		imageUrl: '/images/img5.jpeg'
 	},
-	{
-		id: 'project6',
-		name: 'Project6',
-		description: 'Description for Project 6',
-		imageUrl: '/images/img6.jpeg'
-	}
+	// {
+	// 	id: 'project6',
+	// 	name: 'Project6',
+	// 	description: 'Description for Project 6',
+	// 	imageUrl: '/images/img6.jpeg'
+	// }
 ];

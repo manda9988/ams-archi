@@ -1,43 +1,58 @@
 // footer.scss
 footer {
 	background: rgb(22, 22, 22);
+	width: 100%;
+	padding: 50px 0 0;
+
 	.footer-container {
 		display: flex;
 		justify-content: space-between;
-		padding: 20px;
-		margin-bottom: 50px;
-		color: #fff;
+		margin: 0 auto 60px;
+		width: 80%;
+		color: #e7e7e7;
+		// background: rgb(0, 67, 144);
 
 		.address-section,
 		.contact-section,
 		.social-section {
 			display: flex;
 			flex-direction: column;
-			width: 30%;
+			// background: rgba(0, 102, 46, 0.247);
+		}
+		.address-section {
+			width: 25%;
 		}
 
 		.contact-section {
 			text-align: center;
+			width: 35%;
+			p {
+				margin-bottom: 8px;
+			}
 		}
 		.social-section {
 			text-align: right;
+			width: 25%;
 		}
 
 		h2 {
 			font-size: 0.6em;
-			font-weight: 500;
-			margin-bottom: 10px;
-			color: rgb(99, 99, 99);
+			font-weight: 400;
+			margin-bottom: 14px;
+			color: rgb(123, 123, 123);
 		}
 
 		p,
 		li {
-			font-size: 0.7em;
-			font-weight: 600;
-			margin-bottom: 5px;
+			font-size: 0.8em;
+			font-weight: 500;
+			margin-bottom: 6px;
+			// background: rgba(45, 57, 189, 0.188);
 		}
 
-		li {
+		a {
+			display: inline;
+
 			&:hover {
 				color: #939393;
 			}
@@ -45,9 +60,13 @@ footer {
 	}
 
 	.copy-right {
-		text-align: center;
-		padding: 10px 0;
+		// text-align: center;
+		padding: 18px;
 		font-size: 0.6em;
+		color: rgb(98, 98, 98);
+		width: 100%;
+		// margin: 10px 20px;
+		background: rgba(0, 0, 0, 0.12);
 	}
 }
 

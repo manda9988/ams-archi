@@ -43,12 +43,7 @@ a {
 	cursor: pointer;
 }
 
-// Focus outlines for accessibility
-:focus {
-	outline: 2px solid blue; // or choose a color that suits your design
-}
-
-// Only show outlines for keyboard navigation (if :focus-visible is supported)
-:focus:not(:focus-visible) {
-	outline: none;
+::selection {
+	background: #e1e1e1;
+	color: #232323;
 }

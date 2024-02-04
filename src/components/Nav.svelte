@@ -16,6 +16,7 @@
 				<a href="#contact">Contact</a>
 			</div>
 			<div class="social-links">
+				<p>Follow me</p>
 				<a href="https://instagram.com">INSTAGRAM</a>
 				<a href="https://twitter.com">TWITTER</a>
 				<a href="https://linkedin.com">LINKEDIN</a>
