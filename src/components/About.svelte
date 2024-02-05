@@ -1,6 +1,6 @@
 <!-- about.svelte -->
 
-<div class="about">
+<div id="about" class="about">
 	<div class="para-about">
 		<div class="paraIntro">
 			<p>

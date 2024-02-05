@@ -1,5 +1,5 @@
 <!-- footer.svelte -->
-<footer>
+<footer id="footerContact">
 	<div class="footer-container">
 		<div class="address-section">
 			<h2>ADDRESS</h2>
@@ -16,9 +16,13 @@
 		<div class="social-section">
 			<h2>FOLLOW ME</h2>
 			<ul>
-				<li><a href="https://instagram.com">INSTAGRAM</a></li>
-				<li><a href="https://twitter.com">TWITTER</a></li>
-				<li><a href="https://linkedin.com">LINKEDIN</a></li>
+				<li>
+					<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+				</li>
+				<li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">TWITTER</a></li>
+				<li>
+					<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+				</li>
 			</ul>
 		</div>
 	</div>

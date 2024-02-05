@@ -4,7 +4,7 @@
 	import { projects } from '../lib/projectsData';
 </script>
 
-<section class="section-projects">
+<section id="projects" class="section-projects">
 	
 	<h2>Last Projects</h2>
 
