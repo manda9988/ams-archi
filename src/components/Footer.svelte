@@ -3,7 +3,7 @@
 	<div class="footer-container">
 		<div class="address-section">
 			<h2>ADDRESS</h2>
-			<p>12, AVENUE ANDREU ALFARO</p>
+			<p>12, AVENUE ANDREU ALFFAROO</p>
 			<p>46110 VALENCIA</p>
 			<p>GUADELOUPE</p>
 		</div>
