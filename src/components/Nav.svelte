@@ -1,5 +1,25 @@
 <!-- nav.svelte -->
 
+<script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const navLinks = document.querySelectorAll('.nav-links a, .social-links a');
+
+		navLinks.forEach((link) => {
+			link.addEventListener('click', function () {
+				const toggle = document.getElementById('toggle');
+
+				if (toggle !== null && toggle instanceof HTMLInputElement) {
+					if (toggle.checked) {
+						toggle.click();
+					}
+				}
+			});
+		});
+	});
+</script>
+
 <nav class="navbar">
 	<input id="toggle" type="checkbox" />
 	<label for="toggle" class="hamburger">
