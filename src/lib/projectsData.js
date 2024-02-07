@@ -1,4 +1,11 @@
-// projectsData.js
+// src/lib/projectsData.js
+/** @typedef {Object} Project
+ * @property {string} id
+ * @property {string} name
+ * @property {string} description
+ * @property {string} imageUrl
+ */
+
 export const projects = [
 	{
 		id: 'project1',
@@ -30,10 +37,10 @@ export const projects = [
 		description: 'Description for Project 5',
 		imageUrl: '/images/img5.jpeg'
 	},
-	// {
-	// 	id: 'project6',
-	// 	name: 'Project6',
-	// 	description: 'Description for Project 6',
-	// 	imageUrl: '/images/img6.jpeg'
-	// }
+	{
+		id: 'project6',
+		name: 'Project6',
+		description: 'Description for Project 6',
+		imageUrl: '/images/img6.jpeg'
+	}
 ];
