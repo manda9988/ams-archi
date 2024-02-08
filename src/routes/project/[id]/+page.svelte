@@ -1,27 +1,17 @@
 <!-- src/routes/project/[id].svelte -->
-<script lang="ts">
-	import type { Project } from '../../../app.d.ts';
-	import { projects } from '../../../lib/projectsData';
+<script>
 	import About from '../../../components/About.svelte';
 	import Projects from '../../../components/Projects.svelte';
-
-	export let project: Project;
-
-	export async function load({ params }: { params: { id: string } }) {
-		const foundProject = projects.find((p) => p.id === params.id);
-		if (foundProject) {
-			project = foundProject;
-			return { props: { project } };
-		}
-		throw new Error('Projet non trouvé');
-	}
 </script>
 
-<div class="topHome" style={`background-image: url('${project.imageUrl}')`}>
+<div id="home" class="topHome">
 	<div class="title">
-		<h1>{project.name}</h1>
-		<h2>{project.description}</h2>
+		<h1>Matthieu Achy</h1>
+		<h2>Architecture</h2>
 	</div>
+	<a href="#about" class="arrow-down">
+		<i class="fa-solid fa-arrow-down"></i>
+	</a>
 </div>
 
 <About />
