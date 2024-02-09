@@ -4,7 +4,11 @@
 	import Projects from '../components/Projects.svelte';
 </script>
 
-<div id="home" class="topHome">
+<div
+	id="home"
+	class="topHome"
+	style="background: url('/images/topHomeImg.jpeg') center/cover no-repeat;"
+>
 	<div class="title">
 		<h1>Matthieu Achy</h1>
 		<h2>Architecture</h2>

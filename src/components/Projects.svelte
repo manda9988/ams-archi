@@ -9,7 +9,7 @@
 
 	<div class="projects-gallery">
 		{#each projects as project}
-			<a href={`/project/${project.id}`} class="project-item">
+			<a href={`/${project.id}`} class="project-item">
 				<div class="project-image" style={`background-image: url('${project.imageUrl}')`}></div>
 				<figure>
 					<figcaption>{project.name}</figcaption>
