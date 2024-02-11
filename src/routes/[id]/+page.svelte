@@ -1,18 +1,17 @@
 <!-- src/routes/[id].svelte -->
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import { projects } from '../../lib/projectsData';
-	import About from '../../components/About.svelte';
 	import Projects from '../../components/Projects.svelte';
 	import { onMount } from 'svelte';
+	import ProjAbout from '../../components/ProjAbout.svelte';
+	import type { Project } from '../../lib/types';
 
-	// Utilisation de JSDoc pour spécifier le type de `project`
-	/** @type {{ id: string, name: string, nameBis: string, description: string, descriptionBis: string, imageUrl: string, imageUrl2?: string, imageUrl3?: string, imageUrl4?: string, imageUrl5?: string, imageUrl6?: string } | undefined} */
-	let project;
+	let project: Project | undefined;
 
 	onMount(() => {
-		const projectId = $page.params.id; // Assurez-vous que cela correspond à la façon dont vos routes sont définies
-		project = projects.find((p) => p.id === projectId);
+		const projectId = $page.params.id;
+		project = projects.find((p) => p.id === projectId) as Project | undefined;
 	});
 </script>
 
@@ -31,7 +30,7 @@
 		</a>
 	</div>
 
-	<About />
+	<ProjAbout {project} />
 	<Projects />
 {/if}
 
