@@ -7,7 +7,6 @@
 	margin: 0 0 120px;
 	padding-top: 50px;
 	width: 100%;
-	// background: red;
 
 	h2 {
 		font-size: 2.8rem;
@@ -33,23 +32,6 @@
 			height: 300px;
 			width: 100%;
 			transition: transform 0.3s ease-in-out;
-			cursor: pointer;
-
-			&:hover {
-				.project-image::before {
-					content: '';
-					position: absolute;
-					top: 0;
-					left: 0;
-					right: 0;
-					bottom: 0;
-					background: rgba(28, 28, 28, 0.83);
-				}
-
-				figcaption {
-					opacity: 1;
-				}
-			}
 		}
 
 		.project-image {
@@ -59,20 +41,6 @@
 			position: relative;
 			background-size: cover;
 			background-position: center;
-		}
-
-		figcaption {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: rgb(238, 238, 238);
-			font-size: 1.2em;
-			font-weight: 500;
-			letter-spacing: -1px;
-			opacity: 0;
-			transition: opacity 0.3s ease-in-out;
-			pointer-events: none;
 		}
 	}
 }

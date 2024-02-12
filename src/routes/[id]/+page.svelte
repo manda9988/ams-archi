@@ -31,7 +31,7 @@
 	</div>
 
 	<ProjAbout {project} />
-	<ProjProjects />
+	<ProjProjects {project} />
 {/if}
 
 <style>
