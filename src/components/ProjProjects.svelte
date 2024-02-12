@@ -9,8 +9,8 @@
 	<h2>Project</h2>
 
 	<div class="projects-gallery">
-		{#if project}
-			{#each [project.imageUrl1, project.imageUrl2, project.imageUrl3, project.imageUrl4] as imageUrl}
+		{#if project && project.images}
+			{#each project.images as imageUrl}
 				<div class="project-item">
 					<img src={imageUrl} alt="" class="project-image" />
 				</div>

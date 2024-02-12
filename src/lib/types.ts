@@ -7,10 +7,5 @@ export interface Project {
 	descriptionBis?: string;
 	descriptionTer?: string;
 	imageUrl: string;
-	imageUrl1?: string;
-	imageUrl2?: string;
-	imageUrl3?: string;
-	imageUrl4?: string;
-	imageUrl5?: string;
-	imageUrl6?: string;
+	images?: string[]; // Tableau d'URLs d'images supplémentaires
 }
