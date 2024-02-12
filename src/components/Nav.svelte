@@ -2,6 +2,7 @@
 
 <script>
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation'; // Importez goto pour la navigation programmatique
 
 	onMount(() => {
 		const navLinks = document.querySelectorAll('.nav-links a, .social-links a');
@@ -31,9 +32,9 @@
 		<div class="links">
 			<div class="nav-links">
 				<a href="/">Home</a>
-				<a href="#about">About</a>
-				<a href="#projects">Projects</a>
-				<a href="#footerContact">Contact</a>
+				<a href="#about" on:click|preventDefault={() => goto('/#about')}>About</a>
+				<a href="#projects" on:click|preventDefault={() => goto('/#projects')}>Projects</a>
+				<a href="#footerContact" on:click|preventDefault={() => goto('/#footerContact')}>Contact</a>
 			</div>
 
 			<div class="social-links">
