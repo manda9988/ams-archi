@@ -2,7 +2,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { projects } from '../../lib/projectsData';
-	import Projects from '../../components/Projects.svelte';
+	import ProjProjects from '../../components/ProjProjects.svelte';
 	import { onMount } from 'svelte';
 	import ProjAbout from '../../components/ProjAbout.svelte';
 	import type { Project } from '../../lib/types';
@@ -31,7 +31,7 @@
 	</div>
 
 	<ProjAbout {project} />
-	<Projects />
+	<ProjProjects />
 {/if}
 
 <style>
