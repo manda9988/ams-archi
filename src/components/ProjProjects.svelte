@@ -6,7 +6,7 @@
 </script>
 
 <section id="proProjects" class="section-projects">
-	<h2>Project</h2>
+	<!-- <h2>Project</h2> -->
 
 	<div class="projects-gallery">
 		{#if project && project.images}
