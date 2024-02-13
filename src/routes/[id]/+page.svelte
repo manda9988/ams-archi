@@ -2,9 +2,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { projects } from '../../lib/projectsData';
-	import ProjProjects from '../../components/ProjProjects.svelte';
+	import GalleryProject from '../../components/GalleryProject.svelte';
 	import { onMount } from 'svelte';
-	import ProjAbout from '../../components/ProjAbout.svelte';
+	import AboutProjet from '../../components/AboutProjet.svelte';
 	import type { Project } from '../../lib/types';
 
 	let project: Project | undefined;
@@ -30,8 +30,8 @@
 		</a>
 	</div>
 
-	<ProjAbout {project} />
-	<ProjProjects {project} />
+	<AboutProjet {project} />
+	<GalleryProject {project} />
 {/if}
 
 <style>

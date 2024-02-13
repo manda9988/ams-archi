@@ -1,4 +1,4 @@
-<!-- ProjProjects.svelte -->
+<!-- GalleryProject.svelte -->
 
 <script lang="ts">
 	import type { Project } from '../lib/types';
@@ -6,8 +6,6 @@
 </script>
 
 <section id="proProjects" class="section-projects">
-	<!-- <h2>Project</h2> -->
-
 	<div class="projects-gallery">
 		{#if project && project.images}
 			{#each project.images as imageUrl}
@@ -20,5 +18,5 @@
 </section>
 
 <style>
-	@import '../styles/projprojects.scss';
+	@import '../styles/galleryProject.scss';
 </style>

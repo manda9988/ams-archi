@@ -1,4 +1,4 @@
-<!-- ProjAbout.svelte -->
+<!-- AboutProjet.svelte -->
 
 <script lang="ts">
 	import type { Project } from '../lib/types';
