@@ -1,5 +1,5 @@
 // galleryProject.scss
-.section-projects {
+.section-projectID {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 768px) {
-	.section-projects {
+	.section-projectID {
 		.projects-gallery {
 			width: 75%;
 		}
