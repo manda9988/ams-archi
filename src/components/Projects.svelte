@@ -5,7 +5,7 @@
 </script>
 
 <section id="projects" class="section-projects">
-	<h2>Last Projects</h2>
+	<!-- <h2>Last Projects</h2> -->
 
 	<div class="projects-gallery">
 		{#each projects as project}

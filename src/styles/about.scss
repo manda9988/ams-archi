@@ -1,16 +1,15 @@
 // about.scss
 .about {
 	width: 100%;
-	// margin-top: 50px;
 	padding-top: 50px;
 	color: rgb(45, 45, 45);
-	// background: blue;
+	// background: red;
 
 	.para-about {
 		text-align: justify;
-		width: 80%;
+		width: 65%;
 		margin: 20px auto 20px;
-		// background: red;
+		// background: greenyellow;
 		.paraIntro {
 			margin-bottom: 2rem;
 			font-weight: 600;
@@ -20,7 +19,7 @@
 		}
 
 		.paraUnder {
-			display: flex;
+			// display: flex;
 			gap: 1.8rem;
 			font-weight: 300;
 			font-size: 1rem;
@@ -28,7 +27,7 @@
 
 			.paraLeft,
 			.paraRight {
-				flex: 1;
+				// flex: 1;
 				p {
 					margin-bottom: 0.8rem;
 				}

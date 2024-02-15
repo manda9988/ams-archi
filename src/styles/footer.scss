@@ -1,13 +1,15 @@
 // footer.scss
+
 footer {
 	background: rgb(22, 22, 22);
 	width: 100%;
-	padding: 50px 0 0;
-
+	padding-top: 20px; /* Mis à jour pour être comme dans la règle @media */
 	.footer-container {
 		display: flex;
+		flex-direction: column; /* Mis à jour pour être comme dans la règle @media */
+		align-items: center; /* Mis à jour pour être comme dans la règle @media */
 		justify-content: space-between;
-		margin: 0 auto 60px;
+		margin: 0 auto 38px; /* Mis à jour pour être comme dans la règle @media */
 		width: 80%;
 		color: #e7e7e7;
 
@@ -16,27 +18,23 @@ footer {
 		.social-section {
 			display: flex;
 			flex-direction: column;
+			width: 90%; /* Mis à jour pour être comme dans la règle @media */
+			text-align: center; /* Mis à jour pour être comme dans la règle @media */
+			padding-bottom: 16px; /* Mis à jour pour être comme dans la règle @media */
 		}
 		.address-section {
-			width: 25%;
+			margin-top: 20px; /* Mis à jour pour être comme dans la règle @media */
+			margin-bottom: 20px; /* Mis à jour pour être comme dans la règle @media */
 		}
 
 		.contact-section {
-			text-align: center;
-			width: 35%;
-			p {
-				margin-bottom: 8px;
-			}
-		}
-		.social-section {
-			text-align: right;
-			width: 25%;
+			margin-bottom: 20px; /* Mis à jour pour être comme dans la règle @media */
 		}
 
 		h2 {
 			font-size: 0.6em;
 			font-weight: 400;
-			margin-bottom: 14px;
+			margin-bottom: 10px; /* Mis à jour pour être comme dans la règle @media */
 			color: rgb(123, 123, 123);
 		}
 
@@ -49,7 +47,6 @@ footer {
 
 		a {
 			display: inline;
-
 			&:hover {
 				color: #939393;
 			}
@@ -63,6 +60,7 @@ footer {
 		color: rgb(98, 98, 98);
 		width: 100%;
 		background: rgba(0, 0, 0, 0.12);
+		text-align: center; /* Mis à jour pour être comme dans la règle @media */
 	}
 }
 
@@ -71,7 +69,6 @@ footer {
 		padding-top: 20px;
 		.footer-container {
 			h2 {
-
 				margin-bottom: 10px;
 			}
 			flex-direction: column;

@@ -19,17 +19,17 @@
 	}
 
 	.projects-gallery {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-
-		gap: 8px;
-		width: 80%;
-		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 28px;
+		width: 55%;
+		// background: green;
 		.project-item {
 			position: relative;
 			overflow: hidden;
-			border-radius: 4px;
-			height: 300px;
+			border-radius: 6px;
+			height: 400px;
 			width: 100%;
 			transition: transform 0.3s ease-in-out;
 			cursor: pointer;
@@ -80,10 +80,6 @@
 	.section-projects {
 		.projects-gallery {
 			width: 84%;
-			grid-template-columns: repeat(2, 1fr);
-			.project-item {
-				height: 210px;
-			}
 		}
 
 		h2 {
@@ -96,10 +92,6 @@
 	.section-projects {
 		.projects-gallery {
 			width: 75%;
-			grid-template-columns: repeat(1, 1fr);
-			.project-item {
-				height: 200px;
-			}
 		}
 
 		h2 {
