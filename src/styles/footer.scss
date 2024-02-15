@@ -1,47 +1,47 @@
 // footer.scss
-
 footer {
 	background: rgb(22, 22, 22);
 	width: 100%;
-	padding-top: 20px; /* Mis à jour pour être comme dans la règle @media */
+	padding-top: 22px;
 	.footer-container {
 		display: flex;
-		flex-direction: column; /* Mis à jour pour être comme dans la règle @media */
-		align-items: center; /* Mis à jour pour être comme dans la règle @media */
+		flex-direction: column;
+		align-items: center;
 		justify-content: space-between;
-		margin: 0 auto 38px; /* Mis à jour pour être comme dans la règle @media */
-		width: 80%;
-		color: #e7e7e7;
+		margin: 15px auto 15px;
+		width: 75%;
+		color: #d3d3d3;
+		// background: greenyellow;
 
-		.address-section,
 		.contact-section,
 		.social-section {
 			display: flex;
 			flex-direction: column;
-			width: 90%; /* Mis à jour pour être comme dans la règle @media */
-			text-align: center; /* Mis à jour pour être comme dans la règle @media */
-			padding-bottom: 16px; /* Mis à jour pour être comme dans la règle @media */
+			width: 340px;
+			text-align: center;
+			padding-bottom: 16px;
+			// background: rgb(255, 109, 133);
 		}
-		.address-section {
-			margin-top: 20px; /* Mis à jour pour être comme dans la règle @media */
-			margin-bottom: 20px; /* Mis à jour pour être comme dans la règle @media */
+		.contact-section p {
+			font-size: 0.8em;
+			font-weight: 600;
 		}
-
-		.contact-section {
-			margin-bottom: 20px; /* Mis à jour pour être comme dans la règle @media */
+		.social-section li {
+			font-size: 0.7em;
 		}
 
 		h2 {
-			font-size: 0.6em;
-			font-weight: 400;
-			margin-bottom: 10px; /* Mis à jour pour être comme dans la règle @media */
-			color: rgb(123, 123, 123);
+			font-size: 1em;
+			font-weight: 700;
+			margin-bottom: 12px;
+			color: rgb(207, 207, 207);
+			background: rgba(58, 58, 58, 0.294);
+			padding: 6px 6px;
+			line-height: 0.5;
 		}
 
 		p,
 		li {
-			font-size: 0.8em;
-			font-weight: 500;
 			margin-bottom: 6px;
 		}
 
@@ -60,7 +60,7 @@ footer {
 		color: rgb(98, 98, 98);
 		width: 100%;
 		background: rgba(0, 0, 0, 0.12);
-		text-align: center; /* Mis à jour pour être comme dans la règle @media */
+		text-align: center;
 	}
 }
 
@@ -75,13 +75,11 @@ footer {
 			align-items: center;
 			margin-bottom: 38px;
 
-			.address-section,
 			.contact-section,
 			.social-section {
-				width: 90%;
-				text-align: center;
+				width: 250px;
+
 				padding-bottom: 16px;
-				// background: red;
 			}
 
 			.address-section,

@@ -7,6 +7,7 @@
 	margin: 0 0 120px;
 	padding-top: 50px;
 	width: 100%;
+	// background: greenyellow;
 
 	h2 {
 		font-size: 2.8rem;
@@ -78,8 +79,11 @@
 
 @media (max-width: 768px) {
 	.section-projects {
+		padding-top: 30px;
+
 		.projects-gallery {
-			width: 84%;
+			width: 75%;
+			gap: 12px;
 		}
 
 		h2 {

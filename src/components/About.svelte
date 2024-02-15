@@ -34,8 +34,7 @@
 					Perferendis vitae voluptas totam eveniet amet minima perspiciatis saepe, debitis repellat
 					ratione tempore tempora quia suscipit, quam aspernatur fugit a temporibus quibusdam
 					eligendi! Itaque delectus veniam impedit iure unde rerum quidem alias. Nesciunt veritatis
-					atque quam, quia soluta qui libero obcaecati asperiores repellat officiis magnam ipsam
-					eveniet odio sequi recusandae dicta magni?
+					atque quam, quia soluta qui libero obcaecati asperiores repellat officiis magnam ipsam.
 				</p>
 			</div>
 		</div>
