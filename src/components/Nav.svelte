@@ -2,7 +2,7 @@
 
 <script>
 	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation'; // Importez goto pour la navigation programmatique
+	import { goto } from '$app/navigation';
 
 	onMount(() => {
 		const navLinks = document.querySelectorAll('.nav-links a, .social-links a');
@@ -22,6 +22,12 @@
 </script>
 
 <nav class="navbar">
+	<a href="/" class="title-link">
+		<div class="title">
+			<h1>Matthieu Achy</h1>
+			<h2>Architecture</h2>
+		</div>
+	</a>
 	<input id="toggle" type="checkbox" />
 	<label for="toggle" class="hamburger">
 		<div class="top-bun"></div>
@@ -29,23 +35,11 @@
 		<div class="bottom-bun"></div>
 	</label>
 	<div class="nav-container">
-		<div class="links">
-			<div class="nav-links">
-				<a href="/">Home</a>
-				<a href="#about" on:click|preventDefault={() => goto('/#about')}>About</a>
-				<a href="#projects" on:click|preventDefault={() => goto('/#projects')}>Projects</a>
-				<a href="#footerContact" on:click|preventDefault={() => goto('/#footerContact')}>Contact</a>
-			</div>
-
-			<div class="social-links">
-				<p>Follow me</p>
-				<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
-				<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">TWITTER</a>
-				<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
-			</div>
+		<div class="nav-links">
+			<a href="#about" on:click|preventDefault={() => goto('/#about')}>About</a>
+			<a href="#projects" on:click|preventDefault={() => goto('/#projects')}>Projects</a>
+			<a href="#footerContact" on:click|preventDefault={() => goto('/#footerContact')}>Contact</a>
 		</div>
-
-		<div class="copy-right">©AV. All Rights Reserved. 2024</div>
 	</div>
 </nav>
 
