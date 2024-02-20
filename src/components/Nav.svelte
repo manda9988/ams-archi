@@ -38,7 +38,7 @@
 		<div class="nav-links">
 			<a href="#about" on:click|preventDefault={() => goto('/#about')}>About</a>
 			<a href="#projects" on:click|preventDefault={() => goto('/#projects')}>Projects</a>
-			<a href="#footerContact" on:click|preventDefault={() => goto('/#footerContact')}>Contact</a>
+			<a href="#footer" on:click|preventDefault={() => goto('/#footer')}>Contact</a>
 		</div>
 	</div>
 </nav>

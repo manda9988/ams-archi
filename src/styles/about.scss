@@ -7,27 +7,24 @@
 
 	.para-about {
 		text-align: justify;
-		width: 65%;
+		width: 55%;
 		margin: 20px auto 20px;
 		// background: greenyellow;
 		.paraIntro {
 			margin-bottom: 25px;
 			font-weight: 500;
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 			line-height: 1.2;
-			letter-spacing: -0.4px;
+			letter-spacing: -0.8px;
 		}
 
 		.paraUnder {
-			font-weight: 300;
+			font-weight: 200;
 			font-size: 1rem;
-			line-height: 19px;
+			line-height: 1.4;
 
-			.paraLeft,
-			.paraRight {
-				p {
-					margin-bottom: 0.8rem;
-				}
+			p {
+				margin-bottom: 0.8rem;
 			}
 		}
 	}

@@ -11,7 +11,6 @@ footer {
 		margin: 15px auto 15px;
 		width: 75%;
 		color: #d3d3d3;
-		// background: greenyellow;
 
 		.contact-section,
 		.social-section {
@@ -20,29 +19,17 @@ footer {
 			width: 340px;
 			text-align: center;
 			padding-bottom: 16px;
-			// background: rgb(255, 109, 133);
+			margin-top: 4px;
 		}
 		.contact-section p {
-			font-size: 0.8em;
+			font-size: 0.8rem;
 			font-weight: 600;
+			margin-bottom: 5px;
 		}
 		.social-section li {
-			font-size: 0.7em;
-		}
-
-		h2 {
-			font-size: 1em;
-			font-weight: 700;
-			margin-bottom: 12px;
-			color: rgb(207, 207, 207);
-			background: rgba(58, 58, 58, 0.294);
-			padding: 6px 6px;
-			line-height: 0.5;
-		}
-
-		p,
-		li {
-			margin-bottom: 6px;
+			font-size: 0.7rem;
+			font-weight: 200;
+			margin-bottom: 7px;
 		}
 
 		a {
@@ -61,55 +48,5 @@ footer {
 		width: 100%;
 		background: rgba(0, 0, 0, 0.12);
 		text-align: center;
-	}
-}
-
-@media (max-width: 768px) {
-	footer {
-		padding-top: 20px;
-		.footer-container {
-			h2 {
-				margin-bottom: 10px;
-			}
-			flex-direction: column;
-			align-items: center;
-			margin-bottom: 38px;
-
-			.contact-section,
-			.social-section {
-				width: 250px;
-
-				padding-bottom: 16px;
-			}
-
-			.address-section,
-			.contact-section {
-				margin-bottom: 20px;
-			}
-			.address-section {
-				margin-top: 20px;
-			}
-		}
-		.copy-right {
-			text-align: center;
-		}
-	}
-}
-@media (max-width: 550px) {
-	footer {
-		padding-top: 20px;
-		.footer-container {
-			h2 {
-				font-size: 0.5em;
-			}
-
-			p,
-			li {
-				font-size: 0.7em;
-			}
-		}
-		.copy-right {
-			font-size: 0.5em;
-		}
 	}
 }
