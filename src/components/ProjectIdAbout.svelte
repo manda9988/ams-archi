@@ -6,7 +6,7 @@
 	export let project: Project;
 </script>
 
-<div class="projectIdAbout">
+<div id="projectIdAbout" class="projectIdAbout">
 	<div class="para-about">
 		<div class="paraIntro">
 			<p>{project.description}</p>

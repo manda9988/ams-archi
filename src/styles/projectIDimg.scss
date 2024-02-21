@@ -1,28 +1,26 @@
-// galleryProject.scss
-.section-projectID {
+// projectIDimg.scss
+.projectIDimg {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	margin: 0 0 120px;
-	padding-top: 50px;
+	padding-top: 40px;
 	width: 100%;
-
 	.projects-gallery {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-
-		gap: 40px;
-		width: 80%;
-		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 28px;
+		width: 55%;
 		.project-item {
 			position: relative;
 			overflow: hidden;
-			border-radius: 4px;
-			max-height: 615px;
+			border-radius: 6px;
+			width: 100%;
+			max-height: 90vh;
 			transition: transform 0.3s ease-in-out;
-
-			margin: 0 auto;
+			cursor: pointer;
 		}
 
 		.project-image {
@@ -30,17 +28,19 @@
 			width: 100%;
 			transition: transform 0.3s ease-in-out;
 			position: relative;
-			object-fit: cover;
-			object-position: center;
-			cursor: default;
+			background-size: cover;
+			background-position: center;
 		}
 	}
 }
 
-@media (max-width: 768px) {
-	.section-projectID {
+@media (max-width: 780px) {
+	.projectIDimg {
+		padding-top: 10px;
+
 		.projects-gallery {
 			width: 75%;
+			gap: 8px;
 		}
 	}
 }

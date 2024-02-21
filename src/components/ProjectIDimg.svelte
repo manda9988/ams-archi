@@ -1,11 +1,11 @@
-<!-- GalleryProject.svelte -->
+<!-- projectIDimg.svelte -->
 
 <script lang="ts">
 	import type { Project } from '../lib/types';
 	export let project: Project;
 </script>
 
-<section class="section-projectID">
+<section class="projectIDimg">
 	<div class="projects-gallery">
 		{#if project && project.images}
 			{#each project.images as imageUrl}
@@ -18,5 +18,5 @@
 </section>
 
 <style>
-	@import '../styles/galleryProject.scss';
+	@import '../styles/projectIDimg.scss';
 </style>
