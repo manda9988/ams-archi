@@ -17,12 +17,10 @@
 
 {#if project}
 	<div
-		id="home"
-		class="topHome"
+		class="projectIdTopHome"
 		style={`background: url('${project.imageUrl}') center/cover no-repeat;`}
 	>
 		<div class="title">
-			<h1>{project.name}</h1>
 			<h2>{project.nameBis}</h2>
 		</div>
 		<a href="#about" class="arrow-down">
@@ -35,5 +33,5 @@
 {/if}
 
 <style>
-	@import '../../styles/home.scss';
+	@import '../../styles/projectIdHome.scss';
 </style>

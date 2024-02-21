@@ -1,0 +1,77 @@
+// src/styles/projectIdHome.scss
+.projectIdTopHome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+
+	.title {
+		position: absolute;
+		bottom: 80px;
+		left: 50%;
+		transform: translate(-50%);
+		text-transform: uppercase;
+		letter-spacing: -2px;
+		line-height: 0.8;
+		padding: 4px 18px;
+        // width: 100%;
+		border-radius: 4px;
+		background: rgba(11, 11, 11, 0.401);
+
+		h2 {
+			font-size: 32px;
+			transform: scaleY(0.9);
+			color: rgb(232, 232, 232);
+			font-weight: 400;
+            text-align: center;
+		}
+	}
+
+	.arrow-down {
+		cursor: pointer;
+		background: rgba(41, 41, 41, 0.7);
+		height: 32px;
+		width: 32px;
+		border-radius: 100%;
+		position: absolute;
+		bottom: 3vh;
+		left: 50%;
+		transform: translate(-50%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+		color: rgb(220, 220, 220);
+		transition: background 0.4s ease-in-out;
+		&:hover {
+			background: rgba(41, 41, 41, 0.9);
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.projectIdTopHome {
+		.title {
+			h2 {
+				font-size: 28px;
+			}
+		}
+		.arrow-down {
+			height: 30px;
+			width: 30px;
+		}
+	}
+}
+@media (max-width: 550px) {
+	.projectIdTopHome {
+		.title {
+			h2 {
+				font-size: 24px;
+			}
+		}
+		.arrow-down {
+			height: 25px;
+			width: 25px;
+		}
+	}
+}
