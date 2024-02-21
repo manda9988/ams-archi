@@ -1,11 +1,11 @@
 // src/lib/types.ts
 export interface Project {
 	id: string;
-	name: string;
-	nameBis: string;
-	description: string;
-	descriptionBis?: string;
-	descriptionTer?: string;
-	imageUrl: string;
-	images?: string[]; // Tableau d'URLs d'images supplémentaires
+	name1: string;
+	name2: string;
+	description1: string;
+	description2?: string;
+	description3?: string;
+	imageMain: string;
+	images?: string[];
 }
