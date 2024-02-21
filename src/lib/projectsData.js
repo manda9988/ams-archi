@@ -61,7 +61,7 @@ export const projects = [
 	{
 		id: 'project4',
 		name1: 'Eco Eatery',
-		name2: 'Bourg de Terre-de-Haut',
+		name2: 'Trois-Rivières',
 		description1:
 			'Description 1 du Project 4, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		description2:
