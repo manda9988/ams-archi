@@ -9,7 +9,7 @@
 
 	.arrow-down {
 		cursor: pointer;
-		background: rgba(41, 41, 41, 0.507);
+		background: rgba(41, 41, 41, 0.4);
 		height: 32px;
 		width: 32px;
 		border-radius: 100%;
@@ -24,7 +24,7 @@
 		color: rgb(220, 220, 220);
 		transition: background 0.4s ease-in-out;
 		&:hover {
-			background: rgba(55, 55, 55, 0.843);
+			background: rgba(41, 41, 41, 0.7);
 		}
 	}
 }

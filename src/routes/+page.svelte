@@ -7,7 +7,7 @@
 <div
 	id="home"
 	class="topHome"
-	style="background: url('/images/imgMain.png') center/cover no-repeat;"
+	style="background: url('/images/imgVilla.png') center/cover no-repeat;"
 >
 	<a href="#about" class="arrow-down">
 		<i class="fa-solid fa-arrow-down"></i>

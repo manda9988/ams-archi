@@ -6,7 +6,7 @@
 	width: 100%;
 	height: 60px;
 	z-index: 1;
-	background: rgba(0, 0, 0, 0.375);
+	background: rgba(28, 28, 28, 0.341);
 
 	.title {
 		text-transform: uppercase;
@@ -49,9 +49,9 @@
 
 		div {
 			width: 100%;
-			height: 2px;
+			height: 2.8px;
 			border-radius: 3px;
-			background-color: #c9c9c9;
+			background-color: #dddddd;
 			transition: all 0.3s ease-in-out;
 		}
 	}

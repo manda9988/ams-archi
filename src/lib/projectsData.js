@@ -3,8 +3,8 @@
 export const projects = [
 	{
 		id: 'project1',
-		name1: 'name 1 project1',
-		name2: 'name 2 project1',
+		name1: 'Coastal Haven',
+		name2: 'Deshaies',
 		description1:
 			'Description 1 du Project 1, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		description2:
@@ -22,8 +22,8 @@ export const projects = [
 	},
 	{
 		id: 'project2',
-		name1: 'name 1 project2',
-		name2: 'name 2 project2',
+		name1: 'Community Daycare',
+		name2: 'Sainte-Anne',
 		description1:
 			'Description 1 du Project 2, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		description2:
@@ -41,8 +41,8 @@ export const projects = [
 	},
 	{
 		id: 'project3',
-		name1: 'name 1 project3',
-		name2: 'name 2 project3',
+		name1: 'Urban Residences',
+		name2: 'Le Gosier',
 		description1:
 			'Description 1 du Project 3, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		description2:
@@ -60,8 +60,8 @@ export const projects = [
 	},
 	{
 		id: 'project4',
-		name1: 'name 1 project4',
-		name2: 'name 2 project4',
+		name1: 'Eco Eatery',
+		name2: 'Bourg de Terre-de-Haut',
 		description1:
 			'Description 1 du Project 4, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		description2:
@@ -79,8 +79,8 @@ export const projects = [
 	},
 	{
 		id: 'project5',
-		name1: 'name 1 project5',
-		name2: 'name 2 project5',
+		name1: 'Seaside Retreat',
+		name2: 'Saint-François',
 		description1:
 			'Description 1 du Project 5, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		description2:
