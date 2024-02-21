@@ -2,10 +2,10 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { projects } from '../../lib/projectsData';
-	import GalleryProject from '../../components/ProjectIDimg.svelte';
 	import { onMount } from 'svelte';
-	import AboutProjet from '../../components/ProjectIdAbout.svelte';
 	import type { Project } from '../../lib/types';
+	import ProjectIdAbout from '../../components/ProjectIdAbout.svelte';
+	import ProjectIDimg from '../../components/ProjectIDimg.svelte';
 
 	let project: Project | undefined;
 
@@ -18,19 +18,19 @@
 {#if project}
 	<div
 		class="projectIdTopHome"
-		style={`background: url('${project.imageUrl}') center/cover no-repeat;`}
+		style={`background: url('${project.imageMain}') center/cover no-repeat;`}
 	>
 		<div class="title">
-			<h2>{project.nameBis}</h2>
-			<h3>{project.name}</h3>
+			<h2>{project.name1}</h2>
+			<h3>{project.name2}</h3>
 		</div>
 		<a href="#projectIdAbout" class="arrow-down">
 			<i class="fa-solid fa-arrow-down"></i>
 		</a>
 	</div>
 
-	<AboutProjet {project} />
-	<GalleryProject {project} />
+	<ProjectIdAbout {project} />
+	<ProjectIDimg {project} />
 {/if}
 
 <style>

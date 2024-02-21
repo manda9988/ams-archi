@@ -9,12 +9,12 @@
 <div id="projectIdAbout" class="projectIdAbout">
 	<div class="para-about">
 		<div class="paraIntro">
-			<p>{project.description}</p>
+			<p>{project.description1}</p>
 		</div>
 
 		<div class="paraUnder">
-			<p>{project.descriptionBis}</p>
-			<p>{project.descriptionTer}</p>
+			<p>{project.description2}</p>
+			<p>{project.description3}</p>
 		</div>
 	</div>
 </div>
