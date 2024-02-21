@@ -1,0 +1,63 @@
+// projectIdAbout.scss
+.projectIdAbout {
+	width: 100%;
+	padding-top: 30px;
+	color: rgb(45, 45, 45);
+	// background: red;
+
+	.para-about {
+		text-align: justify;
+		width: 55%;
+		margin: 20px auto 20px;
+		// background: greenyellow;
+		.paraIntro {
+			margin-bottom: 25px;
+			font-weight: 500;
+			font-size: 1.3rem;
+			line-height: 1.2;
+			letter-spacing: -0.8px;
+		}
+
+		.paraUnder {
+			font-weight: 200;
+			font-size: 1rem;
+			line-height: 1.4;
+
+			p {
+				margin-bottom: 0.8rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.projectIdAbout {
+		padding-top: 20px;
+
+		.para-about {
+			width: 75%;
+
+			.paraIntro {
+				font-size: 1.2rem;
+				margin-bottom: 20px;
+			}
+			.paraUnder {
+				flex-direction: column;
+				font-size: 0.9rem;
+			}
+		}
+	}
+}
+@media (max-width: 550px) {
+	.projectIdAbout {
+		.para-about {
+			width: 74%;
+			.paraIntro {
+				font-size: 1.1rem;
+			}
+			.paraUnder {
+				font-size: 0.8rem;
+			}
+		}
+	}
+}

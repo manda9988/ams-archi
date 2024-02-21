@@ -4,7 +4,7 @@
 	import { projects } from '../../lib/projectsData';
 	import GalleryProject from '../../components/GalleryProject.svelte';
 	import { onMount } from 'svelte';
-	import AboutProjet from '../../components/AboutProjet.svelte';
+	import AboutProjet from '../../components/ProjectIdAbout.svelte';
 	import type { Project } from '../../lib/types';
 
 	let project: Project | undefined;
