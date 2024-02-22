@@ -11,24 +11,22 @@
 		</div>
 
 		<div class="paraUnder">
-			<div class="paraLeft">
-				<p>
-					Cumque nemo corrupti consectetur! Excepturi mollitia, necessitatibus, iusto amet
-					architecto molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum
-					explicabo quasi doloremque sint beatae, voluptas recusandae at.
-				</p>
-				<p>
-					Inventore doloribus ipsum nulla eveniet ipsam vitae harum optio sapiente. Ipsa aliquid a
-					non, incidunt recusandae optio temporibus porro voluptatum aut maiores ab error eveniet?
-					Obcaecati distinctio explicabo quis vitae recusandae quidem facilis dolores, quae iusto
-					inventore exercitationem eligendi debitis modi fuga aspernatur, qui molestiae vero optio
-					tempora alias! Possimus inventore labore, harum excepturi reprehenderit beatae.
-				</p>
-				<p>
-					Itaque delectus veniam impedit iure unde rerum quidem alias. Nesciunt veritatis atque
-					quam, quia soluta qui libero obcaecati asperiores repellat officiis magnam ipsam.
-				</p>
-			</div>
+			<p>
+				Cumque nemo corrupti consectetur! Excepturi mollitia, necessitatibus, iusto amet architecto
+				molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi
+				doloremque sint beatae, voluptas recusandae at.
+			</p>
+			<p>
+				Inventore doloribus ipsum nulla eveniet ipsam vitae harum optio sapiente. Ipsa aliquid a
+				non, incidunt recusandae optio temporibus porro voluptatum aut maiores ab error eveniet?
+				Obcaecati distinctio explicabo quis vitae recusandae quidem facilis dolores, quae iusto
+				inventore exercitationem eligendi debitis modi fuga aspernatur, qui molestiae vero optio
+				tempora alias! Possimus inventore labore, harum excepturi reprehenderit beatae.
+			</p>
+			<p>
+				Itaque delectus veniam impedit iure unde rerum quidem alias. Nesciunt veritatis atque quam,
+				quia soluta qui libero obcaecati asperiores repellat officiis magnam ipsam.
+			</p>
 		</div>
 	</div>
 </div>
