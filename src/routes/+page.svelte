@@ -10,7 +10,7 @@
 	style="background: url('/images/imgVilla.png') center/cover no-repeat;"
 >
 	<a href="#about" class="arrow-down">
-		<i class="fa-solid fa-arrow-down"></i>
+		<span class="fa-arrow">↓</span>
 	</a>
 </div>
 

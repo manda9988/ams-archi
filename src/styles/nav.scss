@@ -6,31 +6,19 @@
 	width: 100%;
 	height: 60px;
 	z-index: 1;
-	background: rgba(28, 28, 28, 0.341);
+	background: rgb(21, 21, 21);
 
 	.title {
-		text-transform: uppercase;
-		letter-spacing: -1px;
-		line-height: 0.7;
-		padding: 6px;
-		border-radius: 4px;
-		margin-left: 15px;
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-
 		h1 {
-			font-size: 22px;
-			font-weight: 400;
-			transform: scaleY(0.7);
-			margin-left: 1px;
-			color: rgb(212, 212, 212);
-		}
-
-		h2 {
-			font-size: 24px;
-			font-weight: 600;
-			color: rgb(229, 229, 229);
+			font-size: 1.1rem;
+			font-weight: 500;
+			color: rgb(206, 206, 206);
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			margin-left: 22px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
 		}
 	}
 
@@ -49,9 +37,9 @@
 
 		div {
 			width: 100%;
-			height: 2.8px;
+			height: 1.6px;
 			border-radius: 3px;
-			background-color: #dddddd;
+			background: rgb(206, 206, 206);
 			transition: all 0.3s ease-in-out;
 		}
 	}
@@ -60,7 +48,7 @@
 		display: none;
 	}
 
-	#toggle:checked + .hamburger .top-bun,
+	#toggle:checked + .hamburger .meat,
 	#toggle:checked + .hamburger .bottom-bun {
 		opacity: 0;
 	}
@@ -72,7 +60,7 @@
 		right: 0;
 		position: absolute;
 		width: 100%;
-		height: 140px;
+		height: 180px;
 		background: rgb(18, 18, 18);
 		transform: translateY(-100%);
 		transition: transform 0.8s ease-in-out;
@@ -80,20 +68,20 @@
 		align-items: center;
 
 		.nav-links {
-			color: rgb(215, 215, 215);
-			font-size: 1.6rem;
-			font-weight: 600;
-			letter-spacing: -3px;
+			color: rgb(206, 206, 206);
+			font-size: 1.5rem;
+			font-weight: 500;
+			letter-spacing: -2px;
 			transform: scaleY(0.9);
 			text-transform: uppercase;
 			display: flex;
 			flex-direction: column;
-			margin-left: 20px;
+			margin-left: 30px;
 
 			a {
 				cursor: pointer;
 				transition: color 0.3s ease-in-out;
-				margin: 2.2px;
+				padding: 10px 0;
 			}
 			a:hover {
 				color: #474747;
@@ -106,16 +94,21 @@
 	.navbar {
 		.title {
 			h1 {
-				font-size: 20px;
-			}
-
-			h2 {
-				font-size: 22px;
+				margin-left: 18px;
+				font-size: 1rem;
 			}
 		}
+		.hamburger {
+			right: 24px;
+		}
 		.nav-container {
+			height: 160px;
+
 			.nav-links {
-				font-size: 1.5rem;
+				font-size: 1.2rem;
+				a {
+					padding: 8px 0;
+				}
 			}
 		}
 	}
@@ -124,17 +117,12 @@
 	.navbar {
 		.title {
 			h1 {
-				font-size: 18px;
-			}
-
-			h2 {
-				font-size: 20px;
+				margin-left: 14px;
+				font-size: 0.9rem;
 			}
 		}
-		.nav-container {
-			.nav-links {
-				font-size: 1.3rem;
-			}
+		.hamburger {
+			right: 22px;
 		}
 	}
 }
