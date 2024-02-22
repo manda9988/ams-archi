@@ -6,6 +6,7 @@
 	import type { Project } from '../../lib/types';
 	import ProjectIdAbout from '../../components/ProjectIdAbout.svelte';
 	import ProjectIDimg from '../../components/ProjectIDimg.svelte';
+	import ArrowDown from '../../components/ArrowDown.svelte';
 
 	let project: Project | undefined;
 
@@ -17,16 +18,14 @@
 
 {#if project}
 	<div
-		class="projectIdTopHome"
+		class="idHome"
 		style={`background: url('${project.imageMain}') center/cover no-repeat;`}
 	>
 		<div class="title">
 			<h2>{project.name1}</h2>
 			<h3>{project.name2}</h3>
 		</div>
-		<a href="#projectIdAbout" class="arrow-down">
-			<i class="fa-solid fa-arrow-down"></i>
-		</a>
+		<ArrowDown link="#about" />
 	</div>
 
 	<ProjectIdAbout {project} />
@@ -34,5 +33,5 @@
 {/if}
 
 <style>
-	@import '../../styles/projectIdHome.scss';
+	@import '../../styles/idHome.scss';
 </style>
