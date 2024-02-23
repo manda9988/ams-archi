@@ -4,8 +4,8 @@
 	import { projects } from '../../lib/projectsData';
 	import { onMount } from 'svelte';
 	import type { Project } from '../../lib/types';
-	import ProjectIdAbout from '../../components/ProjectIdAbout.svelte';
-	import ProjectIDimg from '../../components/ProjectIDimg.svelte';
+	import About from '../../components/About.svelte';
+	import IdImg from '../../components/IdImg.svelte';
 	import ArrowDown from '../../components/ArrowDown.svelte';
 
 	let project: Project | undefined;
@@ -17,10 +17,7 @@
 </script>
 
 {#if project}
-	<div
-		class="idHome"
-		style={`background: url('${project.imageMain}') center/cover no-repeat;`}
-	>
+	<div class="idHome" style={`background: url('${project.imageMain}') center/cover no-repeat;`}>
 		<div class="title">
 			<h2>{project.name1}</h2>
 			<h3>{project.name2}</h3>
@@ -28,8 +25,8 @@
 		<ArrowDown link="#about" />
 	</div>
 
-	<ProjectIdAbout {project} />
-	<ProjectIDimg {project} />
+	<About projectId={$page.params.id} />
+	<IdImg {project} />
 {/if}
 
 <style>

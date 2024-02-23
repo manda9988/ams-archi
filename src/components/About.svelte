@@ -1,32 +1,35 @@
 <!-- about.svelte -->
 
-<div id="about" class="about">
+<script lang="ts">
+	import { about, projects } from '../lib/projectsData'; // Ajustez le chemin selon votre structure
+	import type { Project } from '../lib/types';
+
+	export let projectId: string | undefined = undefined;
+
+	let project: Project | undefined;
+	let content = about; // Utiliser about comme contenu par défaut
+
+	if (projectId) {
+		project = projects.find((p) => p.id === projectId);
+		if (project) {
+			content = {
+				description1: project.description1,
+				// Utilisez l'opérateur de coalescence nulle pour fournir une valeur par défaut
+				description2: project.description2 ?? 'Pas de description disponible.',
+				description3: project.description3 ?? 'Pas de description disponible.'
+			};
+		}
+	}
+</script>
+
+<div class="about">
 	<div class="para-about">
 		<div class="paraIntro">
-			<p>
-				Sint ipsam exercitationem minus illum mollitia nihil quaerat nam laboriosam atque ad alias
-				voluptates, possimus, in magni neque. Nobis maxime adipisci vitae. Sint ipsam
-				exercitationem.
-			</p>
+			<p>{content.description1}</p>
 		</div>
-
 		<div class="paraUnder">
-			<p>
-				Cumque nemo corrupti consectetur! Excepturi mollitia, necessitatibus, iusto amet architecto
-				molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi
-				doloremque sint beatae, voluptas recusandae at.
-			</p>
-			<p>
-				Inventore doloribus ipsum nulla eveniet ipsam vitae harum optio sapiente. Ipsa aliquid a
-				non, incidunt recusandae optio temporibus porro voluptatum aut maiores ab error eveniet?
-				Obcaecati distinctio explicabo quis vitae recusandae quidem facilis dolores, quae iusto
-				inventore exercitationem eligendi debitis modi fuga aspernatur, qui molestiae vero optio
-				tempora alias! Possimus inventore labore, harum excepturi reprehenderit beatae.
-			</p>
-			<p>
-				Itaque delectus veniam impedit iure unde rerum quidem alias. Nesciunt veritatis atque quam,
-				quia soluta qui libero obcaecati asperiores repellat officiis magnam ipsam.
-			</p>
+			<p>{content.description2}</p>
+			<p>{content.description3}</p>
 		</div>
 	</div>
 </div>

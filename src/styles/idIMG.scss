@@ -1,5 +1,5 @@
-// projectIDimg.scss
-.projectIDimg {
+// idIMG.scss
+.idIMG {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -11,7 +11,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 28px;
+		gap: 10px;
 		width: 55%;
 		.project-item {
 			position: relative;
@@ -33,12 +33,12 @@
 	}
 }
 
-@media (max-width: 780px) {
-	.projectIDimg {
+@media (max-width: 1000px) {
+	.idIMG {
 		padding-top: 10px;
 
 		.projects-gallery {
-			width: 75%;
+			width: 85%;
 			gap: 8px;
 		}
 	}

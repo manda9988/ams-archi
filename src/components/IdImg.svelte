@@ -11,12 +11,11 @@
 	}
 </script>
 
-<section class="projectIDimg">
+<section class="idIMG">
 	<div class="projects-gallery">
 		{#if project.images && project.images.length > 0}
 			{#each project.images as imageUrl}
 				<div class="project-item">
-					<!-- Utilisation du nom de l'image pour l'attribut alt -->
 					<img src={imageUrl} alt={extractImageName(imageUrl)} class="project-image" />
 				</div>
 			{/each}
@@ -25,5 +24,5 @@
 </section>
 
 <style>
-	@import '../styles/projectIDimg.scss';
+	@import '../styles/idIMG.scss';
 </style>
