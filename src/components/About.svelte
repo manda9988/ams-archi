@@ -1,13 +1,13 @@
 <!-- about.svelte -->
 
 <script lang="ts">
-	import { about, projects } from '../lib/projectsData'; // Ajustez le chemin selon votre structure
+	import { about, projects } from '../lib/projectsData';
 	import type { Project } from '../lib/types';
 
 	export let projectId: string | undefined = undefined;
 
 	let project: Project | undefined;
-	let content = about; // Utiliser about comme contenu par défaut
+	let content = about;
 
 	if (projectId) {
 		project = projects.find((p) => p.id === projectId);
@@ -22,7 +22,7 @@
 	}
 </script>
 
-<div class="about">
+<div id="about" class="about">
 	<div class="para-about">
 		<div class="paraIntro">
 			<p>{content.description1}</p>

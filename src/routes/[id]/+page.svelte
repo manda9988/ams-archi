@@ -1,12 +1,12 @@
 <!-- src/routes/[id].svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { projects } from '../../lib/projectsData';
 	import { onMount } from 'svelte';
-	import type { Project } from '../../lib/types';
+	import { projects } from '../../lib/projectsData';
 	import About from '../../components/About.svelte';
 	import IdImg from '../../components/IdImg.svelte';
 	import ArrowDown from '../../components/ArrowDown.svelte';
+	import type { Project } from '../../lib/types';
 
 	let project: Project | undefined;
 
