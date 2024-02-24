@@ -5,7 +5,12 @@
 	import ArrowDown from '../components/ArrowDown.svelte';
 </script>
 
-<div id="home" class="Home" style="background: url('/images/imgVilla.png') center/cover no-repeat;">
+<div id="home" class="home" style="background: url('/images/imgVilla.png') center/cover no-repeat;">
+	<div class="title">
+		<h1>Matthieu Achy</h1>
+		<h2>Architecture</h2>
+	</div>
+
 	<ArrowDown link="#about" />
 </div>
 
@@ -13,7 +18,5 @@
 <Projects />
 
 <style>
-	.Home {
-		height: 100vh;
-	}
+	@import '../styles/home.scss';
 </style>
