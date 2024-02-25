@@ -14,14 +14,15 @@
 		padding: 28px 24px;
 		text-transform: uppercase;
 		letter-spacing: -4px;
-		line-height: 0.8;
+		line-height: 0.76;
 
 		h1 {
-			font-weight: 600;
+			font-weight: 455;
 			font-size: 3.6rem;
+			transform: scaleY(0.9);
 		}
 		h2 {
-			font-weight: 700;
+			font-weight: 600;
 			font-size: 4rem;
 		}
 	}
