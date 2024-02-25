@@ -13,13 +13,13 @@
 		bottom: 16px;
 		left: 50%;
 		transform: translate(-50%);
-		color: rgb(206, 206, 206);
+		color: rgb(221, 221, 221);
 		transition: all 0.6s ease-in-out;
 		font-size: 50px;
-		font-weight: 100;
+		font-weight: 200;
 
 		&:hover {
-			font-weight: 300;
+			font-weight: 400;
 			color: rgb(230, 230, 230);
 		}
 	}

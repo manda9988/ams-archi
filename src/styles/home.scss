@@ -7,10 +7,11 @@
 	.title {
 		position: absolute;
 		width: 100%;
-		height: 200px;
+		height: 225px;
+		bottom: 0;
 		color: rgb(255, 255, 255);
-		background: rgba(32, 32, 32, 0.287);
-		padding: 14px 28px;
+		background: rgba(32, 32, 32, 0.46);
+		padding: 28px 24px;
 		text-transform: uppercase;
 		letter-spacing: -4px;
 		line-height: 0.8;
@@ -30,11 +31,11 @@
 	.home {
 		.title {
 			text-align: center;
-			height: 175px;
-			padding: 18px 0;
+			height: 180px;
+			padding: 34px 0 0;
 
 			h1 {
-				font-size: 2.4rem;
+				font-size: 2.6rem;
 			}
 			h2 {
 				font-size: 2.8rem;
@@ -46,10 +47,10 @@
 @media (max-width: 650px) {
 	.home {
 		.title {
-			height: 165px;
+			padding: 28px 0 0;
 
 			h1 {
-				font-size: 2rem;
+				font-size: 2.2rem;
 			}
 			h2 {
 				font-size: 2.4rem;
