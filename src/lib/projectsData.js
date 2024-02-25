@@ -22,11 +22,11 @@ export const projects = [
 			'Description3 Pro1, Earum odit libero quo aliquam, voluptatem dolores nisi itaque consequatur voluptatibus corporis mollitia, illum quae eum laboriosam doloribus, ea est aperiam aut pariatur facere ratione ipsam quos. Tenetur aspernatur, animi odit quam dolor impedit accusantium ad eligendi eveniet eos velit temporibus non, quaerat nobis quos',
 		imageMain: '/images/imgMain.png',
 		images: [
-			'/images/imgMain.png',
-			'/images/imgCreche.png',
-			'/images/imgLogement.png',
-			'/images/imgRestoBambou.png',
-			'/images/imgVilla.png'
+			'/images/IMG1.png',
+			'/images/IMG2.png',
+			'/images/IMG3.png',
+			'/images/IMG4.png',
+			'/images/IMG5.png'
 		]
 	},
 	{
@@ -41,11 +41,11 @@ export const projects = [
 			'Description3 Pro2, Earum odit libero quo aliquam, voluptatem dolores nisi itaque consequatur voluptatibus corporis mollitia, illum quae eum laboriosam doloribus, ea est aperiam aut pariatur facere ratione ipsam quos! Tenetur aspernatur, animi odit quam dolor impedit accusantium ad eligendi eveniet eos velit temporibus non, quaerat nobis quos',
 		imageMain: '/images/imgCreche.png',
 		images: [
-			'/images/imgMain.png',
-			'/images/imgCreche.png',
-			'/images/imgLogement.png',
-			'/images/imgRestoBambou.png',
-			'/images/imgVilla.png'
+			'/images/IMG6.png',
+			'/images/IMG7.png',
+			'/images/IMG8.png',
+			'/images/IMG9.png',
+			'/images/IMG10.png'
 		]
 	},
 	{
@@ -60,11 +60,11 @@ export const projects = [
 			'Description3 Pro3, Earum odit libero quo aliquam, voluptatem dolores nisi itaque consequatur voluptatibus corporis mollitia, illum quae eum laboriosam doloribus, ea est aperiam aut pariatur facere ratione ipsam quos! Tenetur aspernatur, animi odit quam dolor impedit accusantium ad eligendi eveniet eos velit temporibus non, quaerat nobis quos',
 		imageMain: '/images/imgLogement.png',
 		images: [
-			'/images/imgMain.png',
-			'/images/imgCreche.png',
-			'/images/imgLogement.png',
-			'/images/imgRestoBambou.png',
-			'/images/imgVilla.png'
+			'/images/IMG1.png',
+			'/images/IMG2.png',
+			'/images/IMG3.png',
+			'/images/IMG4.png',
+			'/images/IMG5.png'
 		]
 	},
 	{
@@ -79,11 +79,11 @@ export const projects = [
 			'Description3 Pro4, Earum odit libero quo aliquam, voluptatem dolores nisi itaque consequatur voluptatibus corporis mollitia, illum quae eum laboriosam doloribus, ea est aperiam aut pariatur facere ratione ipsam quos! Tenetur aspernatur, animi odit quam dolor impedit accusantium ad eligendi eveniet eos velit temporibus non, quaerat nobis quos',
 		imageMain: '/images/imgRestoBambou.png',
 		images: [
-			'/images/imgMain.png',
-			'/images/imgCreche.png',
-			'/images/imgLogement.png',
-			'/images/imgRestoBambou.png',
-			'/images/imgVilla.png'
+			'/images/IMG6.png',
+			'/images/IMG7.png',
+			'/images/IMG8.png',
+			'/images/IMG9.png',
+			'/images/IMG10.png'
 		]
 	},
 	{
@@ -98,11 +98,11 @@ export const projects = [
 			'Description3 Pro5, Earum odit libero quo aliquam, voluptatem dolores nisi itaque consequatur voluptatibus corporis mollitia, illum quae eum laboriosam doloribus, ea est aperiam aut pariatur facere ratione ipsam quos! Tenetur aspernatur, animi odit quam dolor impedit accusantium ad eligendi eveniet eos velit temporibus non, quaerat nobis quos',
 		imageMain: '/images/imgVilla.png',
 		images: [
-			'/images/imgMain.png',
-			'/images/imgCreche.png',
-			'/images/imgLogement.png',
-			'/images/imgRestoBambou.png',
-			'/images/imgVilla.png'
+			'/images/IMG1.png',
+			'/images/IMG2.png',
+			'/images/IMG3.png',
+			'/images/IMG4.png',
+			'/images/IMG5.png'
 		]
 	}
 ];
