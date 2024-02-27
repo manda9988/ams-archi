@@ -16,10 +16,11 @@
 		color: rgb(221, 221, 221);
 		transition: all 0.6s ease-in-out;
 		font-size: 50px;
-		font-weight: 200;
+		font-weight: 150;
+		user-select: none;
 
 		&:hover {
-			font-weight: 400;
+			font-weight: 250;
 			color: rgb(230, 230, 230);
 		}
 	}

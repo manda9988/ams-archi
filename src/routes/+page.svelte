@@ -1,4 +1,4 @@
-<!-- home/+page.svelte -->
+<!-- +page.svelte -->
 <script>
 	import { onMount, onDestroy } from 'svelte';
 	import { setupHeightAdjustment } from '../lib/adjustHeight';
@@ -14,10 +14,10 @@
 </script>
 
 <div id="home" class="home" style="background: url('/images/imgVilla.png') center/cover no-repeat;">
-	<div class="title">
+	<!-- <div class="title">
 		<h1>Matthieu Achy</h1>
 		<h2>Architecture</h2>
-	</div>
+	</div> -->
 
 	<ArrowDown link="#about" />
 </div>

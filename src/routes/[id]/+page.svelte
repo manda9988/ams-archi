@@ -23,8 +23,8 @@
 {#if project}
 	<div class="home" style={`background: url('${project.imageMain}') center/cover no-repeat;`}>
 		<div class="title">
-			<h1>{project.name1}</h1>
-			<h2>{project.name2}</h2>
+			<h2>{project.name1}</h2>
+			<h3>{project.name2}</h3>
 		</div>
 		<ArrowDown link="#about" />
 	</div>
