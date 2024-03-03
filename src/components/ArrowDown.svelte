@@ -13,15 +13,15 @@
 		bottom: 16px;
 		left: 50%;
 		transform: translate(-50%);
-		color: rgb(221, 221, 221);
+		color: rgb(255, 255, 255);
 		transition: all 0.6s ease-in-out;
 		font-size: 50px;
-		font-weight: 150;
+		font-weight: 200;
 		user-select: none;
 
 		&:hover {
-			font-weight: 250;
-			color: rgb(230, 230, 230);
+			font-weight: 300;
+			/* color: rgb(255, 255, 255); */
 		}
 	}
 

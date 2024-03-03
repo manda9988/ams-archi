@@ -13,7 +13,11 @@
 	});
 </script>
 
-<div id="home" class="home" style="background: url('/images/imgVilla.png') center/cover no-repeat;">
+<div
+	id="home"
+	class="home"
+	style="background: url('/images/imgLogement.png') center/cover no-repeat;"
+>
 	<ArrowDown link="#about" />
 </div>
 
