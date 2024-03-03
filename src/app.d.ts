@@ -1,16 +1,17 @@
-// src/app.d.ts
-export type Project = {
-	id: string;
-	name: string;
-	description: string;
-	imageUrl: string;
-};
+// // src / app.d.ts
 
-// Assurez-vous de déclarer le type global si nécessaire.
-declare global {
-	namespace App {
-		interface Project extends Project {} // Etendre l'interface si vous avez déjà une déclaration globale.
-	}
-}
+// declare global {
+// 	namespace App {
+// 		interface Project {
+// 			id: string;
+// 			name1: string;
+// 			name2: string;
+// 			description1: string;
+// 			descriptions: string[];
+// 			imageMain: string;
+// 			images?: string[];
+// 		}
+// 	}
+// }
 
-export {};
+// export {};

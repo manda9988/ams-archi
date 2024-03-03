@@ -4,8 +4,7 @@ export interface Project {
 	name1: string;
 	name2: string;
 	description1: string;
-	description2?: string;
-	description3?: string;
+	descriptions: string[];
 	imageMain: string;
 	images?: string[];
 }
