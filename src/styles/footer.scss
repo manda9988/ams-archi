@@ -1,6 +1,6 @@
 // footer.scss
 footer {
-	background: rgb(22, 22, 22);
+	background: rgb(25, 25, 25);
 	width: 100%;
 	padding-top: 22px;
 	.footer-container {
@@ -8,7 +8,7 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		margin: 15px auto 15px;
+		margin: 14px auto 15px;
 		width: 75%;
 		color: #d3d3d3;
 
@@ -18,24 +18,29 @@ footer {
 			flex-direction: column;
 			width: 340px;
 			text-align: center;
-			padding-bottom: 16px;
-			margin-top: 4px;
+			// background: red;
 		}
-		.contact-section p {
-			font-size: 0.8rem;
-			font-weight: 600;
-			margin-bottom: 5px;
+		.contact-section {
+			margin-bottom: 22px;
+			p {
+				font-size: 0.9rem;
+				font-weight: 500;
+				margin-bottom: 6px;
+				letter-spacing: -0.2px;
+			}
 		}
+
 		.social-section li {
 			font-size: 0.7rem;
 			font-weight: 200;
-			margin-bottom: 7px;
+			margin-bottom: 13.5px;
+			letter-spacing: 0.4px;
 		}
 
 		a {
 			display: inline;
 			&:hover {
-				color: #939393;
+				color: #ffffff;
 			}
 		}
 	}
@@ -48,5 +53,34 @@ footer {
 		width: 100%;
 		background: rgba(0, 0, 0, 0.12);
 		text-align: center;
+	}
+
+	@media (max-width: 750px) {
+		.footer-container {
+			margin: 10px auto 15px;
+
+			.contact-section {
+				p {
+					font-size: 0.8rem;
+				}
+			}
+			.social-section li {
+				font-size: 0.7rem;
+			}
+		}
+	}
+	@media (max-width: 525px) {
+		.footer-container {
+			margin: 10px auto 15px;
+
+			.contact-section {
+				p {
+					font-size: 0.7rem;
+				}
+			}
+			.social-section li {
+				font-size: 0.6rem;
+			}
+		}
 	}
 }

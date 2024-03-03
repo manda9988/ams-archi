@@ -1,6 +1,6 @@
 <!-- +page.svelte -->
 <script>
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import { setupHeightAdjustment } from '../lib/adjustHeight';
 
 	import About from '../components/About.svelte';
@@ -9,16 +9,11 @@
 
 	onMount(() => {
 		const cleanup = setupHeightAdjustment();
-		return cleanup; // Cette fonction sera appelée lors de la destruction du composant
+		return cleanup;
 	});
 </script>
 
 <div id="home" class="home" style="background: url('/images/imgVilla.png') center/cover no-repeat;">
-	<!-- <div class="title">
-		<h1>Matthieu Achy</h1>
-		<h2>Architecture</h2>
-	</div> -->
-
 	<ArrowDown link="#about" />
 </div>
 

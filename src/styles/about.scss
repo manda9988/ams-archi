@@ -3,7 +3,7 @@
 	width: 100%;
 	padding-top: 24px;
 	color: rgb(45, 45, 45);
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter Tight', sans-serif;
 	// background: red;
 
 	.para-about {
@@ -13,16 +13,16 @@
 		// background: greenyellow;
 		.paraIntro {
 			margin-bottom: 25px;
-			font-weight: 500;
-			font-size: 1.3rem;
-			line-height: 1.2;
+			font-weight: 400;
+			font-size: 1.4rem;
+			line-height: 1.4;
 			letter-spacing: -0.8px;
 		}
 
 		.paraUnder {
-			font-weight: 200;
+			font-weight: 120;
 			font-size: 1rem;
-			line-height: 1.4;
+			line-height: 1.6;
 
 			p {
 				margin-bottom: 0.8rem;
@@ -53,7 +53,7 @@
 		.para-about {
 			width: 86%;
 			.paraIntro {
-				font-size: 1.1rem;
+				font-size: 1rem;
 			}
 			.paraUnder {
 				font-size: 0.8rem;
