@@ -1,7 +1,7 @@
 <!-- src/routes/[id].svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import { setupHeightAdjustment } from '../../lib/adjustHeight';
 	import { projects } from '../../lib/projectsData';
 	import About from '../../components/About.svelte';
@@ -16,7 +16,7 @@
 		project = projects.find((p) => p.id === projectId);
 
 		const cleanup = setupHeightAdjustment();
-		return cleanup; // Cette fonction sera appelée lors de la destruction du composant
+		return cleanup;
 	});
 </script>
 

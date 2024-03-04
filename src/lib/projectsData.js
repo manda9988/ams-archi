@@ -5,22 +5,22 @@ export const about = {
 	name1: 'About Us', // ou tout autre valeur qui a du sens pour vous
 	name2: 'Additional Information',
 	description1:
-		'Cepturi mollitia, necessitatibus, iusto amet architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
+		"Notre agence d'architecture s'engage à créer des espaces qui allient esthétique, fonctionnalité et durabilité. Nous croyons en une architecture qui respecte l'environnement tout en répondant aux besoins spécifiques de nos clients. Notre approche est centrée sur l'écoute et la collaboration étroite avec chaque client pour transformer leur vision en réalité.",
 	descriptions: [
-		'Inventore doloribus ipsum nulla eveniet ipsam vitae harum optio sapiente. Ipsa aliquid anon, incidunt recusandae optio temporibus porro voluptatum aut maiores ab error eveniet. Obcaecati distinctio explicabo quis vitae recusandae quidem facilis dolores, quae iusto inventore exercitationem eligendi debitis modi fuga aspernatur, qui molestiae vero optio tempora alias! Possimus inventore labore, harum excepturi reprehenderit beatae.',
+		"Nous sommes convaincus que chaque projet est unique et mérite une solution sur mesure. Grâce à une combinaison d'innovation, de créativité et de rigueur technique, nous visons à concevoir des bâtiments et des espaces qui améliorent la qualité de vie des utilisateurs et s'intègrent harmonieusement à leur environnement. Notre objectif est de dépasser les attentes en livrant des projets qui se distinguent par leur qualité et leur pertinence.",
 
-		'Itaque delectus veniam impedit iure unde rerum quidem alias. Nesciunt veritatis atque quam, quia soluta qui libero obcaecati asperiores repellat officiis magnam ipsam.'
+		"Notre passion pour l'architecture guide notre quête d'innovation et de durabilité. Nous valorisons la collaboration étroite avec nos clients, les accompagnant de la conception à la réalisation. Ainsi, nous façonnons des espaces inspirants qui se distinguent par leur qualité et leur intégration harmonieuse dans le temps."
 	],
-	imageMain: '/images/aboutDefaultImage.png', // Une image par défaut pour about
-	images: [] // Vide si about n'a pas d'images supplémentaires
+	imageMain: '/images/aboutDefaultImage.png',
+	images: []
 };
 
 export const projects = [
 	{
 		id: 'project1',
 		name1: 'Coastal Haven',
-		name2: 'Deshaies',
-		description1: 'CONSTRUCTION DE 62 LOGEMENTS ET 10 COMMERCES À CAPOU-FERRAND',
+		name2: 'CAPOU-FERRAND',
+		description1: 'CONSTRUCTION DE 62 LOGEMENTS ET 10 COMMERCES À CAPOU-FERRAND.',
 		descriptions: [
 			'De la ville au village citoyen.',
 
@@ -48,13 +48,11 @@ export const projects = [
 		description1:
 			'Description1 Pro2, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		descriptions: [
-			'Pro2 De la ville au village citoyen.',
+			'Pro2 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			'Nous voulions apporter une touche de modernité par de nouvelles formes architecturales.',
+			'Pro2 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			"La perméabilité des ilots est le coeur du projet. Il permet via des venelles piétonnes de se rendre directement en coeur d'ilot.",
-
-			'Il est conçu comme une promenade connectant les ilots 1B, 2 et 1C entre eux.'
+			'Pro2 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
 		],
 		imageMain: '/images/imgCreche.png',
 		images: [
@@ -72,13 +70,11 @@ export const projects = [
 		description1:
 			'Description1 Pro3, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		descriptions: [
-			'Pro3 De la ville au village citoyen.',
+			'Pro3 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			'Nous voulions apporter une touche de modernité par de nouvelles formes architecturales.',
+			'Pro3 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			"La perméabilité des ilots est le coeur du projet. Il permet via des venelles piétonnes de se rendre directement en coeur d'ilot.",
-
-			'Il est conçu comme une promenade connectant les ilots 1B, 2 et 1C entre eux.'
+			'Pro3 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
 		],
 		imageMain: '/images/imgLogement.png',
 		images: [
@@ -96,13 +92,11 @@ export const projects = [
 		description1:
 			'Description1 Pro4, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		descriptions: [
-			'Pro4 De la ville au village citoyen.',
+			'Pro4 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			'Nous voulions apporter une touche de modernité par de nouvelles formes architecturales.',
+			'Pro4 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			"La perméabilité des ilots est le coeur du projet. Il permet via des venelles piétonnes de se rendre directement en coeur d'ilot.",
-
-			'Il est conçu comme une promenade connectant les ilots 1B, 2 et 1C entre eux.'
+			'Pro4 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
 		],
 		imageMain: '/images/imgRestoBambou.png',
 		images: [
@@ -120,13 +114,11 @@ export const projects = [
 		description1:
 			'Description1 Pro5, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
 		descriptions: [
-			'Pro5 De la ville au village citoyen.',
+			'Pro5 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			'Nous voulions apporter une touche de modernité par de nouvelles formes architecturales.',
+			'Pro5 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
 
-			"La perméabilité des ilots est le coeur du projet. Il permet via des venelles piétonnes de se rendre directement en coeur d'ilot.",
-
-			'Il est conçu comme une promenade connectant les ilots 1B, 2 et 1C entre eux.'
+			'Pro5 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
 		],
 		imageMain: '/images/imgVilla.png',
 		images: [

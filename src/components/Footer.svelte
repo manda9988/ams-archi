@@ -18,7 +18,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="copy-right">©AV. All Rights Reserved. 2024</div>
+	<div class="copy-right">©MA. All Rights Reserved. 2024</div>
 </footer>
 
 <style>
