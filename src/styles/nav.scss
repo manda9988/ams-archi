@@ -16,21 +16,21 @@
 		position: absolute;
 		top: 28px;
 		left: 28px;
-		line-height: 0.82;
-		font-family: 'Roboto', sans-serif;
+		line-height: 0.8;
+		font-family: 'Teko', sans-serif;
 		// background: rgb(38, 38, 38);
 
 		h1 {
-			font-size: 1.4rem;
-			font-weight: 400;
-			transform: scaleY(0.95);
-			letter-spacing: -2px;
-			margin-left: 12px;
+			font-size: 1.9rem;
+			font-weight: 390;
+			// transform: scaleY(0.95);
+			letter-spacing: -1px;
+			margin-left: 4px;
 		}
 		h2 {
 			font-size: 2.8rem;
 			font-weight: 600;
-			letter-spacing: -4px;
+			letter-spacing: -2px;
 		}
 	}
 
@@ -71,33 +71,35 @@
 	.nav-container {
 		right: 0;
 		position: absolute;
-		width: 100%;
-		height: 240px;
-		background: rgb(18, 18, 18);
+		width: 300px;
+		height: 100vh;
+		padding-top: 95px;
+		background: rgba(45, 45, 45, 0.321);
 		transform: translateY(-100%);
-		transition: transform 0.8s ease-in-out;
-		display: flex;
-		align-items: center;
+		transition: transform 0.6s ease-in-out;
 
 		.nav-links {
-			color: rgb(206, 206, 206);
-			font-size: 2.2rem;
-			font-weight: 700;
+			color: rgb(255, 255, 255);
+			font-size: 1.9rem;
+			font-weight: 300;
 			letter-spacing: -2px;
-			transform: scaleY(0.8);
+			transform: scaleY(0.9);
 			text-transform: uppercase;
 			display: flex;
 			flex-direction: column;
-			margin-left: 30px;
+			text-align: right;
+			margin-right: 12px;
+			// background: greenyellow;
 
 			a {
 				cursor: pointer;
 				transition: color 0.3s ease-in-out;
-				padding: 6px 0;
+				padding: 8px;
+				margin-bottom: 6px;
 				// background: red;
 			}
 			a:hover {
-				color: #474747;
+				color: #515151;
 			}
 		}
 	}
@@ -113,12 +115,7 @@
 			right: 24px;
 		}
 		.nav-container {
-			height: 180px;
-
-			.nav-links {
-				font-size: 1.8rem;
-				margin-left: 24px;
-			}
+			width: 235px;
 		}
 	}
 }
@@ -128,8 +125,7 @@
 			top: 22px;
 			left: 8px;
 			h1 {
-				font-size: 1.25rem;
-				margin-left: 14px;
+				font-size: 1.6rem;
 			}
 			h2 {
 				font-size: 2.4rem;
@@ -137,6 +133,9 @@
 		}
 		.hamburger {
 			right: 22px;
+		}
+		.nav-container {
+			width: 100vw;
 		}
 	}
 }
