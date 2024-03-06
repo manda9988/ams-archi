@@ -8,7 +8,6 @@ export function setupHeightAdjustment() {
 	adjustHomeHeight();
 	window.addEventListener('resize', adjustHomeHeight);
 
-	// Retourner une fonction de nettoyage pour être appelée par onDestroy
 	return () => {
 		window.removeEventListener('resize', adjustHomeHeight);
 	};

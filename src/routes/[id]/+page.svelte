@@ -2,7 +2,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
-	import { setupHeightAdjustment } from '../../lib/adjustHeight';
 	import { projects } from '../../lib/projectsData';
 	import About from '../../components/About.svelte';
 	import IdImg from '../../components/IdImg.svelte';
@@ -14,9 +13,6 @@
 	onMount(() => {
 		const projectId = $page.params.id;
 		project = projects.find((p) => p.id === projectId);
-
-		const cleanup = setupHeightAdjustment();
-		return cleanup;
 	});
 </script>
 
