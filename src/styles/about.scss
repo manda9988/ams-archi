@@ -12,20 +12,22 @@
 		margin: 20px auto 20px;
 		// background: greenyellow;
 		.paraIntro {
-			margin-bottom: 25px;
-			font-weight: 300;
+			margin-bottom: 18px;
+			font-weight: 360;
 			font-size: 1.4rem;
 			line-height: 1.4;
 			// letter-spacing: -0.8px;
 		}
 
 		.paraUnder {
+			text-align: justify;
+
 			font-weight: 120;
 			font-size: 1rem;
 			line-height: 1.6;
 
 			p {
-				margin-bottom: 0.8rem;
+				margin-bottom: 0.6rem;
 			}
 		}
 	}
@@ -40,10 +42,9 @@
 
 			.paraIntro {
 				font-size: 1.2rem;
-				margin-bottom: 20px;
 			}
 			.paraUnder {
-				font-size: 0.9rem;
+				font-size: 1rem;
 			}
 		}
 	}
@@ -53,10 +54,10 @@
 		.para-about {
 			width: 86%;
 			.paraIntro {
-				font-size: 1rem;
+				font-size: 1.1rem;
 			}
 			.paraUnder {
-				font-size: 0.8rem;
+				font-size: 0.9rem;
 			}
 		}
 	}

@@ -5,9 +5,9 @@ export const about = {
 	name1: 'About Us', // ou tout autre valeur qui a du sens pour vous
 	name2: 'Additional Information',
 	description1:
-		"Notre agence d'architecture s'engage à créer des espaces qui allient esthétique, fonctionnalité et durabilité. Nous croyons en une architecture qui respecte l'environnement tout en répondant aux besoins spécifiques de nos clients. Notre philosophie repose sur une écoute attentive et une collaboration étroite pour concrétiser les aspirations de ceux que nous servons.",
+		"Notre agence d'architecture s'engage à créer des espaces qui allient esthétique, fonctionnalité et durabilité. Nous croyons en une architecture qui respecte l'environnement tout en répondant aux besoins spécifiques de nos clients.",
 	descriptions: [
-		"Nous sommes convaincus que chaque projet est unique et mérite une solution sur mesure. Grâce à une combinaison d'innovation, de créativité et de rigueur technique, nous visons à concevoir des bâtiments et des espaces qui améliorent la qualité de vie des utilisateurs et s'intègrent harmonieusement à leur environnement. Notre objectif est de dépasser les attentes en livrant des projets qui se distinguent par leur qualité et leur pertinence.",
+		"Nous sommes convaincus que chaque projet est unique et mérite une solution sur mesure. Grâce à une combinaison d'innovation, de créativité et de rigueur technique, nous visons à concevoir des bâtiments et des espaces qui améliorent la qualité de vie des utilisateurs et s'intègrent harmonieusement à leur environnement.",
 
 		"Notre passion pour l'architecture guide notre quête d'innovation et de durabilité, ainsi, nous façonnons des espaces inspirants qui se distinguent par leur qualité et leur intégration harmonieuse dans le temps."
 	],
@@ -43,14 +43,11 @@ export const projects = [
 		id: 'project2',
 		name1: 'Community Daycare',
 		name2: 'Sainte-Anne',
-		description1:
-			'Description1 Pro2, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
+		description1: "CONSTRUCTION D'UNE CRÈCHE À SAINTE-ANNE.",
 		descriptions: [
-			'Pro2 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
+			"Ce projet incarne l'essence d'une innovation pédagogique nichée au cœur de Sainte-Anne, marquant une étape décisive vers un avenir où éducation et environnement se rencontrent harmonieusement. Sa conception avant-gardiste repose sur l'utilisation de matériaux écologiques et durables, inspirés par la douceur et la sérénité de la nature environnante, tout en adoptant une architecture audacieuse qui stimule l'imagination et la curiosité des tout-petits.",
 
-			'Pro2 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
-
-			'Pro2 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
+			"Sainte-Anne se prépare ainsi à accueillir une crèche innovante, où chaque détail est pensé pour favoriser le bien-être et l'épanouissement des enfants, en les préparant à devenir les citoyens responsables et les penseurs créatifs de demain, le tout dans un cadre enchanteur qui célèbre la beauté de l'apprentissage au sein de la nature."
 		],
 		imageMain: '/images/imgCreche.png',
 		images: [
@@ -65,14 +62,11 @@ export const projects = [
 		id: 'project3',
 		name1: 'Urban Residences',
 		name2: 'Le Gosier',
-		description1:
-			'Description1 Pro3, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
+		description1: 'CONSTRUCTION DE RÉSIDENCES URBAINES.',
 		descriptions: [
-			'Pro3 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
+			"Ce projet trace les contours d'un futur urbain redéfini, où l'architecture s'harmonise avec la vie communautaire pour créer un cadre de vie exceptionnel. Il se distingue par une approche éco-responsable, intégrant des bâtiments à faible impact environnemental qui utilisent des énergies renouvelables et des matériaux locaux.",
 
-			'Pro3 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
-
-			'Pro3 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
+			"Ainsi, cette initiative se pose comme une réflexion avancée sur le logement de demain, privilégiant le bien-être des résidents et l'émergence d'un milieu urbain dynamique et ouvert."
 		],
 		imageMain: '/images/imgLogement.png',
 		images: [
