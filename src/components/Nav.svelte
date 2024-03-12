@@ -38,6 +38,7 @@
 	</label>
 	<div class="nav-container">
 		<div class="nav-links">
+			<a href="/" class="title-link"> Home </a>
 			<a href="#about" on:click|preventDefault={() => goto('/#about')}>About</a>
 			<a href="#projects" on:click|preventDefault={() => goto('/#projects')}>Projects</a>
 			<a href="#footer" on:click|preventDefault={() => goto('/#footer')}>Contact</a>
