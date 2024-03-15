@@ -40,19 +40,7 @@
 			width: 85%;
 
 			.paraIntro {
-				font-size: 1.1rem;
-			}
-			.paraUnder {
-				font-size: 0.9rem;
-			}
-		}
-	}
-}
-@media (max-width: 550px) {
-	.about {
-		.para-about {
-			.paraIntro {
-				font-size: 0.9rem;
+				font-size: 1rem;
 			}
 			.paraUnder {
 				font-size: 0.8rem;
@@ -60,3 +48,15 @@
 		}
 	}
 }
+// @media (max-width: 550px) {
+// 	.about {
+// 		.para-about {
+// 			.paraIntro {
+// 				// font-size: 0.9rem;
+// 			}
+// 			.paraUnder {
+// 				// font-size: 0.7rem;
+// 			}
+// 		}
+// 	}
+// }
