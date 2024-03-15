@@ -24,10 +24,7 @@
 <nav class="navbar">
 	<a href="/" class="title-link">
 		<div class="title">
-			<!-- <h1>Matthieu Achy</h1>
-			<h2>Architecture</h2> -->
-			<h1>Presque</h1>
-			<h2>Carrée</h2>
+			<h1>Doklerr. <br /><span>ARCHITECTS</span></h1>
 		</div>
 	</a>
 	<input id="toggle" type="checkbox" />

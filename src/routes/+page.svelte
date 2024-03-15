@@ -10,6 +10,11 @@
 	class="home"
 	style="background: url('/images/imgLogement.png') center/cover no-repeat;"
 >
+	<div class="title">
+	
+		<h2>Doklerr.</h2>
+		<h2>ARCHITECTS</h2>
+	</div>
 	<ArrowDown link="#about" />
 </div>
 
