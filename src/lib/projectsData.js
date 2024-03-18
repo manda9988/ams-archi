@@ -2,7 +2,7 @@
 
 export const about = {
 	id: 'about',
-	name1: 'About Us', // ou tout autre valeur qui a du sens pour vous
+	name1: 'About Us',
 	name2: 'Additional Information',
 	description1:
 		"Notre agence d'architecture s'engage à créer des espaces qui fusionnent esthétique, fonctionnalité et durabilité. Nous valorisons une architecture respectueuse de l'environnement, conçue pour répondre aux besoins spécifiques de chaque projet.",
@@ -19,13 +19,12 @@ export const projects = [
 		id: 'project1',
 		name1: 'Coastal Haven',
 		name2: 'CAPOU-FERRAND',
-		description1: 'CONSTRUCTION DE 62 LOGEMENTS ET 10 COMMERCES À CAPOU-FERRAND.',
+		description1:
+			'La construction de 62 logements et 10 commerces à Capou-Ferrand marque une étape clé dans le renouveau urbain, alliant modernité et tradition. ',
 		descriptions: [
-			"Ce projet est l'expression d'un renouveau urbain qui tisse ensemble les fils de la modernité et de la tradition. Son développement se distingue par son approche innovante qui privilégie des matériaux naturels, rappelant l'authenticité des cases créoles, tout en introduisant des formes architecturales contemporaines. ",
-
-			"Centré sur la création d'espaces de vie partagés et l'encouragement des interactions sociales à travers des jardins collectifs et des venelles piétonnes, ce projet aspire à renforcer le lien communautaire et à offrir une expérience de vie enrichie au cœur d'un espace vert, urbain et dynamique. ",
-
-			"Ainsi, Capou-Ferrand évolue en un écosystème dynamique, où modernité et tradition fusionnent pour réinventer la cohabitation et la convivialité au sein d'un cadre urbain revitalisé."
+			"Avec une priorité donnée aux matériaux naturels qui évoquent l'authenticité des cases créoles, le projet se démarque par son architecture contemporaine.",
+			'Il est conçu pour favoriser les interactions sociales à travers des jardins collectifs et des venelles piétonnes, renforçant ainsi le lien communautaire et offrant une expérience de vie enrichie dans un cadre urbain et verdoyant.',
+			'Capou-Ferrand devient un écosystème dynamique où cohabitent harmonieusement innovation et tradition, redéfinissant la convivialité en milieu urbain.'
 		],
 		imageMain: '/images/imgMain.png',
 		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
@@ -36,9 +35,8 @@ export const projects = [
 		name2: 'Sainte-Anne',
 		description1: "CONSTRUCTION D'UNE CRÈCHE À SAINTE-ANNE.",
 		descriptions: [
-			"Ce projet incarne l'essence d'une innovation pédagogique nichée au cœur de Sainte-Anne, marquant une étape décisive vers un avenir où éducation et environnement se rencontrent harmonieusement. Sa conception avant-gardiste repose sur l'utilisation de matériaux écologiques et durables, inspirés par la douceur et la sérénité de la nature environnante, tout en adoptant une architecture audacieuse qui stimule l'imagination et la curiosité des tout-petits.",
-
-			"Sainte-Anne se prépare ainsi à accueillir une crèche innovante, où chaque détail est pensé pour favoriser le bien-être et l'épanouissement des enfants, en les préparant à devenir les citoyens responsables et les penseurs créatifs de demain, le tout dans un cadre enchanteur qui célèbre la beauté de l'apprentissage au sein de la nature."
+			"Ce projet incarne l'essence d'une innovation pédagogique nichée au cœur de Sainte-Anne, marquant une étape décisive vers un avenir où éducation et environnement se rencontrent harmonieusement. ",
+			"Sa conception repose sur l'utilisation de matériaux écologiques et durables, inspirés par la douceur et la sérénité de la nature environnante, tout en adoptant une architecture audacieuse qui stimule l'imagination et la curiosité des tout-petits."
 		],
 		imageMain: '/images/imgCreche.png',
 		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
@@ -49,7 +47,7 @@ export const projects = [
 		name2: 'Le Gosier',
 		description1: 'CONSTRUCTION DE RÉSIDENCES URBAINES.',
 		descriptions: [
-			"Ce projet trace les contours d'un futur urbain redéfini, où l'architecture s'harmonise avec la vie communautaire pour créer un cadre de vie exceptionnel. Il se distingue par une approche éco-responsable, intégrant des bâtiments à faible impact environnemental qui utilisent des énergies renouvelables et des matériaux locaux.",
+			'Ce projet se distingue par une approche éco-responsable, intégrant des bâtiments à faible impact environnemental qui utilisent des énergies renouvelables et des matériaux locaux.',
 
 			"Ainsi, cette initiative se pose comme une réflexion avancée sur le logement de demain, privilégiant le bien-être des résidents et l'émergence d'un milieu urbain dynamique et ouvert."
 		],
@@ -58,16 +56,14 @@ export const projects = [
 	},
 	{
 		id: 'project4',
-		name1: 'Eco Eatery',
+		name1: 'Le Bambou',
 		name2: 'Trois-Rivieres',
 		description1:
-			'Description1 Pro4, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
+			"Le restaurant Le Bambou se distingue par une architecture discrète et respectueuse de l'environnement. ",
 		descriptions: [
-			'Pro4 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
-
-			'Pro4 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
-
-			'Pro4 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
+			"Réalisé avec des matériaux locaux et durables, le bâtiment du restaurant s'harmonise avec le paysage urbain de Trois-Rivières, en mettant l'accent sur la réduction de son empreinte écologique.",
+			"Son design épuré maximise l'utilisation de la lumière naturelle, créant un cadre accueillant et agréable pour les visiteurs.",
+			"Cette démarche discrète dans la conception architecturale souligne l'engagement du restaurant vers la durabilité."
 		],
 		imageMain: '/images/imgRestoBambou.png',
 		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
@@ -77,13 +73,11 @@ export const projects = [
 		name1: 'Seaside Retreat',
 		name2: 'Saint-François',
 		description1:
-			'Description1 Pro5, Labore accusamus voluptatum, nemo quam cumque magnam beatae, distinctio reiciendis eveniet molestiae corrupti libero error aliquid corporis quasi perferendis aut ipsam vitae accusantium optio nulla sit rerum.',
+			"Avec son architecture intégrant des matériaux naturels et durables, cette villa s'harmonise avec le paysage côtier, réduisant son impact environnemental.",
 		descriptions: [
-			'Pro5 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
+			"Les vastes ouvertures favorisent une immersion totale dans le cadre naturel, baignant l'intérieur de lumière et d'air marin. ",
 
-			'Pro5 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.',
-
-			'Pro5 architect molestiae pariatur, corrupti eius autem iure et odit repellendus. Earum explicabo quasi doloremque sint beatae, voluptas recusandae at.'
+			"Les espaces de vie, à la fois élégants et confortables, offrent des vues merveilleuses sur l'océan, tandis que les terrasses et jardins invitent à la relaxation au son des vagues."
 		],
 		imageMain: '/images/imgVilla.png',
 		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']

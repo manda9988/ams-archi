@@ -12,7 +12,7 @@
 >
 	<div class="title">
 	
-		<h2>Doklerr.</h2>
+		<h2>Mamori.</h2>
 		<h2>ARCHITECTS</h2>
 	</div>
 	<ArrowDown link="#about" />
