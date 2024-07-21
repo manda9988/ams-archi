@@ -12,8 +12,7 @@
 >
 	<div class="title">
 	
-		<h2>Mamori.</h2>
-		<h2>ARCHITECTS</h2>
+		<h2>amd_ architects</h2>
 	</div>
 	<ArrowDown link="#about" />
 </div>

@@ -1,38 +1,59 @@
-# create-svelte
+Pas de souci, voici une version plus courte du README.md :
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+````markdown
+# SMA Architects
 
-## Creating a project
+## Description
 
-If you're seeing this, you've probably already done this step. Congrats!
+SMA Architects est une agence d'architecture dédiée à la création d'espaces alliant esthétique, fonctionnalité et durabilité.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installation
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Clonez le dépôt :
+   ```bash
+   git clone <URL_DU_DEPOT>
+   ```
+````
 
-## Developing
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Scripts
+
+- `dev`: Lance le serveur de développement.
+- `build`: Construit le projet pour la production.
+- `preview`: Prévisualise le build de production.
+- `check`: Synchronise et vérifie le code TypeScript.
+- `check:watch`: Synchronise et vérifie le code TypeScript en mode watch.
+- `lint`: Vérifie la qualité du code avec Prettier et ESLint.
+- `format`: Formate le code avec Prettier.
+
+## Usage
+
+Pour lancer le projet en mode développement :
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+Pour construire le projet pour la production :
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Pour prévisualiser le build de production :
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+## Technologies
+
+- [Svelte](https://svelte.dev)
+- [SvelteKit](https://kit.svelte.dev)
+- [Vite](https://vitejs.dev)
+- [Sass](https://sass-lang.com)
+- [TypeScript](https://www.typescriptlang.org)

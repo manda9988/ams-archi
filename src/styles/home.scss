@@ -12,26 +12,26 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		// padding: 15px 5px 80px 15px;
-		padding-top: 65px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: rgb(255, 255, 255);
+		color: rgb(231, 231, 231);
+		background: rgba(1, 1, 1, 0.675);
 		text-transform: uppercase;
 		line-height: 0.8;
-		background: rgba(1, 1, 1, 0.386);
 		text-align: center;
 
 		h2 {
-			letter-spacing: -3px;
-			font-weight: 600;
-			font-size: 5.8rem;
+			letter-spacing: -2px;
+			font-size: 4.5rem;
+			font-weight: 100;
 			margin-bottom: 2px;
-		}
-		h3 {
-			font-size: 4rem;
+			color: rgb(241, 241, 241);
+			// background: rgba(223, 223, 223, 0.668);
+			border-radius: 1px;
+			padding: 4px;
+			line-height: 0.85;
 		}
 	}
 }
@@ -40,10 +40,7 @@
 	.home {
 		.title {
 			h2 {
-				font-size: 3.6rem;
-			}
-			h3 {
-				font-size: 2.8rem;
+				font-size: 3.5rem;
 			}
 		}
 	}
@@ -53,10 +50,7 @@
 	.home {
 		.title {
 			h2 {
-				font-size: 3.4rem;
-			}
-			h3 {
-				font-size: 2.2rem;
+				font-size: 3rem;
 			}
 		}
 	}
