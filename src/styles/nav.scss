@@ -10,25 +10,24 @@
 
 	.title {
 		color: rgb(235, 235, 235);
-		background: rgba(223, 223, 223, 0.227);
-		border-radius: 1px;
-		padding: 1px;
+		background: rgba(223, 223, 223, 0.204);
+		border-radius: 2px;
+		padding: 3px;
 		line-height: 0.85;
 		position: absolute;
 		top: 24px;
 		left: 18px;
 		font-family: 'Roboto', sans-serif;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.3s ease-in-out;
 
 		&:hover {
-			color: rgb(19, 19, 19);
+			color: rgb(0, 0, 0);
 		}
 
 		h1 {
-			font-size: 0.9rem;
+			font-size: 1.2rem;
 			font-weight: 300;
 			letter-spacing: -0.8px;
-			// font-style: italic;
 			span {
 				margin-left: -2px;
 			}
@@ -103,23 +102,16 @@
 			}
 		}
 	}
-}
-
-@media (max-width: 800px) {
-	.navbar {
+	@media (max-width: 800px) {
 		.nav-container {
 			width: 100vw;
 		}
+		.title {
+			left: 16px;
+
+			h1 {
+				font-size: 1rem;
+			}
+		}
 	}
 }
-// @media (max-width: 550px) {
-// 	.navbar {
-// 		.title {
-// 			top: 26px;
-// 			left: 16px;
-// 		}
-// 		.hamburger {
-// 			right: 22px;
-// 		}
-// 	}
-// }

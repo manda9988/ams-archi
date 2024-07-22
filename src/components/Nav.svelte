@@ -24,7 +24,7 @@
 <nav class="navbar">
 	<a href="/" class="title-link">
 		<div class="title">
-			<h1>amd_ architects</h1>
+			<h1>ams_ architects</h1>
 		</div>
 	</a>
 	<input id="toggle" type="checkbox" />

@@ -12,7 +12,7 @@
 >
 	<div class="title">
 	
-		<h2>amd_ architects</h2>
+		<h2>ams_ architects</h2>
 	</div>
 	<ArrowDown link="#about" />
 </div>
