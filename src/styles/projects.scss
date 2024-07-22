@@ -1,4 +1,4 @@
-// project.scss
+// projects.scss
 .section-projects {
 	display: flex;
 	justify-content: center;
@@ -9,11 +9,10 @@
 	width: 100%;
 
 	.projects-gallery {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 10px;
-		width: 55%;
+		width: 85%;
 
 		.project-item {
 			position: relative;
@@ -24,7 +23,6 @@
 			transition: transform 0.3s ease-in-out;
 			cursor: pointer;
 			text-transform: uppercase;
-			// background: black;
 
 			&:hover {
 				.project-image::before {
@@ -62,36 +60,39 @@
 			font-weight: 600;
 			letter-spacing: -1px;
 			opacity: 0;
-
 			text-align: center;
 			transition: opacity 0.3s ease-in-out;
 			pointer-events: none;
 		}
 	}
-}
 
-@media (max-width: 1000px) {
-	.section-projects {
+	@media (max-width: 1000px) {
 		padding-top: 10px;
 
 		.projects-gallery {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 8px;
+
 			figcaption {
 				font-size: 1.2rem;
 			}
+
 			width: 85%;
-			gap: 8px;
+
 			.project-item {
 				height: 300px;
 			}
 		}
 	}
-}
-@media (max-width: 550px) {
-	.section-projects {
+
+	@media (max-width: 550px) {
 		.projects-gallery {
+			grid-template-columns: 1fr;
+
 			figcaption {
 				font-size: 1rem;
 			}
+
 			.project-item {
 				height: 175px;
 			}

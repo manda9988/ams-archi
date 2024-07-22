@@ -10,7 +10,7 @@ export const about = {
 		"Grâce à l'innovation, la créativité, et une rigueur technique, nous aspirons à concevoir des bâtiments et des espaces qui enrichissent la qualité de vie et s'intègrent avec élégance à leur contexte. ",
 		"Notre passion pour l'architecture nourrit notre quête continue d'innovation et de durabilité, nous permettant de créer des lieux inspirants, marqués par leur excellence et leur intégration intemporelle."
 	],
-	imageMain: '/images/aboutDefaultImage.png',
+	imageMain: '',
 	images: []
 };
 
@@ -26,8 +26,8 @@ export const projects = [
 			'Il est conçu pour favoriser les interactions sociales à travers des jardins collectifs et des venelles piétonnes, renforçant ainsi le lien communautaire et offrant une expérience de vie enrichie dans un cadre urbain et verdoyant.',
 			'Capou-Ferrand devient un écosystème dynamique où cohabitent harmonieusement innovation et tradition, redéfinissant la convivialité en milieu urbain.'
 		],
-		imageMain: '/images/imgMain.png',
-		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
+		imageMain: '/images/imgPro1/1.jpg',
+		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
 	},
 	{
 		id: 'project2',
@@ -38,8 +38,8 @@ export const projects = [
 			"Ce projet incarne l'essence d'une innovation pédagogique nichée au cœur de Sainte-Anne, marquant une étape décisive vers un avenir où éducation et environnement se rencontrent harmonieusement. ",
 			"Sa conception repose sur l'utilisation de matériaux écologiques et durables, inspirés par la douceur et la sérénité de la nature environnante, tout en adoptant une architecture audacieuse qui stimule l'imagination et la curiosité des tout-petits."
 		],
-		imageMain: '/images/imgCreche.png',
-		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
+		imageMain: '/images/imgPro1/1.jpg',
+		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
 	},
 	{
 		id: 'project3',
@@ -51,8 +51,8 @@ export const projects = [
 
 			"Ainsi, cette initiative se pose comme une réflexion avancée sur le logement de demain, privilégiant le bien-être des résidents et l'émergence d'un milieu urbain dynamique et ouvert."
 		],
-		imageMain: '/images/imgLogement.png',
-		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
+		imageMain: '/images/imgPro1/1.jpg',
+		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
 	},
 	{
 		id: 'project4',
@@ -65,21 +65,7 @@ export const projects = [
 			"Son design épuré maximise l'utilisation de la lumière naturelle, créant un cadre accueillant et agréable pour les visiteurs.",
 			"Cette démarche discrète dans la conception architecturale souligne l'engagement du restaurant vers la durabilité."
 		],
-		imageMain: '/images/imgRestoBambou.png',
-		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
-	},
-	{
-		id: 'project5',
-		name1: 'Seaside Retreat',
-		name2: 'Saint-François',
-		description1:
-			"Avec son architecture intégrant des matériaux naturels et durables, cette villa s'harmonise avec le paysage côtier, réduisant son impact environnemental.",
-		descriptions: [
-			"Les vastes ouvertures favorisent une immersion totale dans le cadre naturel, baignant l'intérieur de lumière et d'air marin. ",
-
-			"Les espaces de vie, à la fois élégants et confortables, offrent des vues merveilleuses sur l'océan, tandis que les terrasses et jardins invitent à la relaxation au son des vagues."
-		],
-		imageMain: '/images/imgVilla.png',
-		images: ['/images/pro1img1.png', '/images/pro1img2.png', '/images/pro1img3.png']
+		imageMain: '/images/imgPro1/1.jpg',
+		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
 	}
 ];
