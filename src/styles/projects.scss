@@ -10,9 +10,9 @@
 
 	.projects-gallery {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: 10px;
-		width: 85%;
+		width: 850px;
 
 		.project-item {
 			position: relative;
@@ -70,7 +70,6 @@
 		padding-top: 10px;
 
 		.projects-gallery {
-			grid-template-columns: repeat(2, 1fr);
 			gap: 8px;
 
 			figcaption {
@@ -87,6 +86,8 @@
 
 	@media (max-width: 550px) {
 		.projects-gallery {
+			gap: 6px;
+
 			grid-template-columns: 1fr;
 
 			figcaption {
@@ -94,7 +95,7 @@
 			}
 
 			.project-item {
-				height: 175px;
+				height: 225px;
 			}
 		}
 	}

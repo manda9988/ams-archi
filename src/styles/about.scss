@@ -1,55 +1,31 @@
 // about.scss
 .about {
 	width: 100%;
-	padding-top: 24px;
 	color: rgb(45, 45, 45);
-	// background: red;
+	padding: 20px 0;
+	margin: 50px 0 20px;
 
 	.para-about {
 		text-align: justify;
-		width: 600px;
-		margin: 20px auto 20px;
-		// background: greenyellow;
-		.paraIntro {
-			margin-bottom: 18px;
-			font-weight: 300;
-			font-size: 1.2rem;
-			line-height: 1.4;
-			// letter-spacing: -0.8px;
-		}
+		width: 850px;
+		margin: 0 auto;
+		font-weight: 100;
+		font-size: 1rem;
+		line-height: 1.6;
 
-		.paraUnder {
-			text-align: justify;
-
-			font-weight: 100;
-			font-size: 1rem;
-			line-height: 1.6;
-
-			p {
-				margin-bottom: 0.4rem;
-			}
+		p {
+			margin-bottom: 0.6rem;
 		}
 	}
-}
 
-@media (max-width: 1000px) {
-	.about {
-		padding-top: 18px;
-
+	@media (max-width: 1000px) {
 		.para-about {
-			width: 80%;
+			width: 85%;
 		}
 	}
-}
-@media (max-width: 550px) {
-	.about {
+	@media (max-width: 550px) {
 		.para-about {
-			.paraIntro {
-				font-size: 1.1rem;
-			}
-			.paraUnder {
-				font-size: 0.9rem;
-			}
+			font-size: 0.9rem;
 		}
 	}
 }

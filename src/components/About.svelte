@@ -16,16 +16,11 @@
 
 <div id="about" class="about">
 	<div class="para-about">
-		<div class="paraIntro">
-			<p>{content.description1}</p>
-		</div>
-		<div class="paraUnder">
-			{#if content?.descriptions}
-				{#each content.descriptions as description}
-					<p>{description}</p>
-				{/each}
-			{/if}
-		</div>
+		{#if content?.descriptions}
+			{#each content.descriptions as description}
+				<p>{description}</p>
+			{/each}
+		{/if}
 	</div>
 </div>
 
