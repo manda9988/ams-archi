@@ -8,7 +8,7 @@
 <div
 	id="home"
 	class="home"
-	style="background: url('/images/imgPro1/1.jpg') center/cover no-repeat;"
+	style="background: url('/images/imgPro2/1.jpg') center/cover no-repeat;"
 >
 	<div class="title">
 		<h2>ams_ architects</h2>
