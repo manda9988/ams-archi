@@ -2,13 +2,12 @@
 footer {
 	background: rgb(25, 25, 25);
 	width: 100%;
-	padding-top: 8px;
+	padding-top: 12px;
 	.footer-container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
-		margin: 10px auto 15px;
+		margin: 6px auto;
 		width: 75%;
 		color: #d3d3d3;
 
@@ -18,9 +17,8 @@ footer {
 			flex-direction: column;
 			width: 340px;
 			text-align: center;
-			margin-bottom: 2px;
 			p {
-				font-size: 0.7rem;
+				font-size: 0.8rem;
 				font-weight: 200;
 				margin-bottom: 6px;
 			}
@@ -28,14 +26,13 @@ footer {
 
 		.social-section {
 			ul {
-				// background: rgba(80, 80, 80, 0.371);
 				width: 145px;
 				height: 30px;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
 				li {
-					font-size: 0.7rem;
+					font-size: 0.75rem;
 					font-weight: 200;
 					a {
 						&:hover {
@@ -49,41 +46,15 @@ footer {
 	}
 
 	.copy-right {
-		padding: 8px 0 18px;
-		font-size: 0.55em;
-		font-weight: 300;
+		font-size: 0.6em;
+		font-weight: 100;
 		color: rgb(98, 98, 98);
 		width: 100%;
-		// background: rgba(0, 0, 0, 0.12);
-		text-align: center;
-	}
-
-	@media (max-width: 750px) {
-		.footer-container {
-			margin: 10px auto 15px;
-
-			.contact-section {
-				p {
-					font-size: 0.8rem;
-				}
-			}
-			.social-section li {
-				font-size: 0.7rem;
-			}
-		}
-	}
-	@media (max-width: 525px) {
-		.footer-container {
-			margin: 10px auto 15px;
-
-			.contact-section {
-				p {
-					font-size: 0.7rem;
-				}
-			}
-			.social-section li {
-				font-size: 0.6rem;
-			}
-		}
+		height: 32px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 10px;
 	}
 }
