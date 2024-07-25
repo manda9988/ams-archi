@@ -22,9 +22,9 @@ export const projects = [
 		name1: 'Coastal Haven',
 		name2: 'CAPOU-FERRAND',
 		descriptions: [
-			"Avec une priorité donnée aux matériaux naturels qui évoquent l'authenticité des cases créoles, le projet se démarque par son architecture contemporaine.",
-
-			'Capou-Ferrand devient un écosystème dynamique où cohabitent harmonieusement innovation et tradition, redéfinissant la convivialité en milieu urbain.'
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
+			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
 		],
 		imageMain: '/images/imgPro1/1.jpg',
 		images: [
@@ -40,8 +40,9 @@ export const projects = [
 		name1: 'Community Daycare',
 		name2: 'Sainte-Anne',
 		descriptions: [
-			"Ce projet incarne l'essence d'une innovation pédagogique nichée au cœur de Sainte-Anne, marquant une étape décisive vers un avenir où éducation et environnement se rencontrent harmonieusement. ",
-			"Sa conception repose sur l'utilisation de matériaux écologiques et durables, inspirés par la douceur et la sérénité de la nature environnante, tout en adoptant une architecture audacieuse qui stimule l'imagination et la curiosité des tout-petits."
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
+			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
 		],
 		imageMain: '/images/imgPro2/3.jpg',
 		images: [
@@ -57,9 +58,9 @@ export const projects = [
 		name1: 'Urban Residences',
 		name2: 'Le Gosier',
 		descriptions: [
-			'Ce projet se distingue par une approche éco-responsable, intégrant des bâtiments à faible impact environnemental qui utilisent des énergies renouvelables et des matériaux locaux.',
-
-			"Ainsi, cette initiative se pose comme une réflexion avancée sur le logement de demain, privilégiant le bien-être des résidents et l'émergence d'un milieu urbain dynamique et ouvert."
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
+			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
 		],
 		imageMain: '/images/imgPro3/1.jpg',
 		images: [
@@ -72,32 +73,13 @@ export const projects = [
 		]
 	},
 	{
-		id: 'project4',
-		name1: 'Le Bambou',
-		name2: 'Trois-Rivieres',
-
-		descriptions: [
-			"Réalisé avec des matériaux locaux et durables, le bâtiment du restaurant s'harmonise avec le paysage urbain de Trois-Rivières, en mettant l'accent sur la réduction de son empreinte écologique.",
-			"Son design épuré maximise l'utilisation de la lumière naturelle, créant un cadre accueillant et agréable pour les visiteurs.",
-			"Cette démarche discrète dans la conception architecturale souligne l'engagement du restaurant vers la durabilité."
-		],
-		imageMain: '/images/imgPro4/1.png',
-		images: [
-			'/images/imgPro4/1.png',
-			'/images/imgPro4/2.png',
-			'/images/imgPro4/3.png',
-			'/images/imgPro4/4.png'
-		]
-	},
-	{
 		id: 'project5',
 		name1: 'Le Bambou',
 		name2: 'Trois-Rivieres',
-
 		descriptions: [
-			"Réalisé avec des matériaux locaux et durables, le bâtiment du restaurant s'harmonise avec le paysage urbain de Trois-Rivières, en mettant l'accent sur la réduction de son empreinte écologique.",
-			"Son design épuré maximise l'utilisation de la lumière naturelle, créant un cadre accueillant et agréable pour les visiteurs.",
-			"Cette démarche discrète dans la conception architecturale souligne l'engagement du restaurant vers la durabilité."
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
+			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
 		],
 		imageMain: '/images/imgPro5/1.jpg',
 		images: [
@@ -107,6 +89,26 @@ export const projects = [
 			'/images/imgPro5/4.jpg',
 			'/images/imgPro5/5.jpg',
 			'/images/imgPro5/6.jpg'
+		]
+	},
+	{
+		id: 'project6',
+		name1: 'New South Wales',
+		name2: 'Sydney',
+		descriptions: [
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
+			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
+		],
+		imageMain: '/images/imgPro6/1.jpg',
+		images: [
+			'/images/imgPro6/1.jpg',
+			'/images/imgPro6/2.jpg',
+			'/images/imgPro6/3.jpg',
+			'/images/imgPro6/4.jpg',
+			'/images/imgPro6/5.jpg',
+			'/images/imgPro6/6.jpg',
+			'/images/imgPro6/7.jpg'
 		]
 	}
 ];
