@@ -27,7 +27,13 @@ export const projects = [
 			'Capou-Ferrand devient un écosystème dynamique où cohabitent harmonieusement innovation et tradition, redéfinissant la convivialité en milieu urbain.'
 		],
 		imageMain: '/images/imgPro1/1.jpg',
-		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
+		images: [
+			'/images/imgPro1/1.jpg',
+			'/images/imgPro1/2.jpg',
+			'/images/imgPro1/3.jpg',
+			'/images/imgPro1/4.jpg',
+			'/images/imgPro1/5.jpg'
+		]
 	},
 	{
 		id: 'project2',
@@ -37,8 +43,14 @@ export const projects = [
 			"Ce projet incarne l'essence d'une innovation pédagogique nichée au cœur de Sainte-Anne, marquant une étape décisive vers un avenir où éducation et environnement se rencontrent harmonieusement. ",
 			"Sa conception repose sur l'utilisation de matériaux écologiques et durables, inspirés par la douceur et la sérénité de la nature environnante, tout en adoptant une architecture audacieuse qui stimule l'imagination et la curiosité des tout-petits."
 		],
-		imageMain: '/images/imgPro2/1.jpg',
-		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
+		imageMain: '/images/imgPro2/3.jpg',
+		images: [
+			'/images/imgPro2/1.jpg',
+			'/images/imgPro2/3.jpg',
+			'/images/imgPro2/4.jpg',
+			'/images/imgPro2/5.jpg',
+			'/images/imgPro2/6.jpg'
+		]
 	},
 	{
 		id: 'project3',
@@ -50,7 +62,14 @@ export const projects = [
 			"Ainsi, cette initiative se pose comme une réflexion avancée sur le logement de demain, privilégiant le bien-être des résidents et l'émergence d'un milieu urbain dynamique et ouvert."
 		],
 		imageMain: '/images/imgPro3/1.jpg',
-		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
+		images: [
+			'/images/imgPro3/1.jpg',
+			'/images/imgPro3/2.jpg',
+			'/images/imgPro3/3.jpg',
+			'/images/imgPro3/4.jpg',
+			'/images/imgPro3/5.jpg',
+			'/images/imgPro3/7.jpg'
+		]
 	},
 	{
 		id: 'project4',
@@ -63,7 +82,12 @@ export const projects = [
 			"Cette démarche discrète dans la conception architecturale souligne l'engagement du restaurant vers la durabilité."
 		],
 		imageMain: '/images/imgPro4/1.png',
-		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
+		images: [
+			'/images/imgPro4/1.png',
+			'/images/imgPro4/2.png',
+			'/images/imgPro4/3.png',
+			'/images/imgPro4/4.png'
+		]
 	},
 	{
 		id: 'project5',
@@ -76,6 +100,13 @@ export const projects = [
 			"Cette démarche discrète dans la conception architecturale souligne l'engagement du restaurant vers la durabilité."
 		],
 		imageMain: '/images/imgPro5/1.jpg',
-		images: ['/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg', '/images/imgPro1/1.jpg']
+		images: [
+			'/images/imgPro5/1.jpg',
+			'/images/imgPro5/2.jpg',
+			'/images/imgPro5/3.jpg',
+			'/images/imgPro5/4.jpg',
+			'/images/imgPro5/5.jpg',
+			'/images/imgPro5/6.jpg'
+		]
 	}
 ];

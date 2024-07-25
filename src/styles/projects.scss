@@ -56,8 +56,8 @@
 			left: 50%;
 			transform: translate(-50%, -50%);
 			color: rgb(231, 231, 231);
-			font-size: 1.4rem;
-			font-weight: 600;
+			font-size: 1rem;
+			font-weight: 400;
 			letter-spacing: -1px;
 			opacity: 0;
 			text-align: center;
@@ -72,10 +72,6 @@
 		.projects-gallery {
 			gap: 8px;
 
-			figcaption {
-				font-size: 1.2rem;
-			}
-
 			width: 85%;
 
 			.project-item {
@@ -89,10 +85,6 @@
 			gap: 6px;
 
 			grid-template-columns: 1fr;
-
-			figcaption {
-				font-size: 1rem;
-			}
 
 			.project-item {
 				height: 225px;
