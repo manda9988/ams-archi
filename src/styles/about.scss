@@ -4,6 +4,10 @@
 	color: rgb(45, 45, 45);
 	padding: 20px 0;
 	margin: 50px 0 20px;
+	::selection {
+		color: #e1e1e1;
+		background: #232323;
+	}
 
 	.para-about {
 		text-align: justify;
