@@ -1,17 +1,12 @@
-
 # ams-archi
-
-## Description
-
-ams-archi est une agence d'architecture dédiée à la création d'espaces alliant esthétique, fonctionnalité et durabilité.
 
 ## Installation
 
 1. Clonez le dépôt :
+
    ```bash
    git clone <URL_DU_DEPOT>
    ```
-
 
 2. Installez les dépendances :
    ```bash
