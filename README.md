@@ -1,11 +1,9 @@
-Pas de souci, voici une version plus courte du README.md :
 
-````markdown
-# SMA Architects
+# ams-archi
 
 ## Description
 
-SMA Architects est une agence d'architecture dédiée à la création d'espaces alliant esthétique, fonctionnalité et durabilité.
+ams-archi est une agence d'architecture dédiée à la création d'espaces alliant esthétique, fonctionnalité et durabilité.
 
 ## Installation
 
@@ -13,7 +11,7 @@ SMA Architects est une agence d'architecture dédiée à la création d'espaces 
    ```bash
    git clone <URL_DU_DEPOT>
    ```
-````
+
 
 2. Installez les dépendances :
    ```bash
