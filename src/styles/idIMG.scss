@@ -6,22 +6,21 @@
 	flex-direction: column;
 	margin: 0 0 80px;
 	width: 100%;
-	// background: rgb(255, 123, 123);
 	.projects-gallery {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 10px;
-		width: 85vw;
-		background: red;
-		padding: 5px;
+		width: 850px;
+		max-width: 100%;
+
 		.project-item {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			position: relative;
 			overflow: hidden;
-			max-width: 850px;
+			width: 100%;
 			max-height: 85vh;
 			transition: transform 0.3s ease-in-out;
 		}
@@ -35,8 +34,8 @@
 		}
 	}
 	@media (max-width: 1000px) {
-		.project-item {
-			max-width: 85%;
+		.projects-gallery {
+			width: 85%;
 		}
 	}
 }
