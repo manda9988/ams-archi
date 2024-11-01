@@ -19,7 +19,7 @@
 			align-items: center;
 			position: relative;
 			overflow: hidden;
-			max-width: 1100px;
+			max-width: 850px;
 			max-height: 85vh;
 			transition: transform 0.3s ease-in-out;
 		}
@@ -29,6 +29,12 @@
 			position: relative;
 			object-fit: cover;
 			object-position: center;
+			width: 100%;
+		}
+	}
+	@media (max-width: 1000px) {
+		.project-item {
+			max-width: 85%;
 		}
 	}
 }
