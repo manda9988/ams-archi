@@ -3,7 +3,8 @@
 	width: 100%;
 	color: rgb(45, 45, 45);
 	padding: 20px 0;
-	margin: 50px 0 20px;
+	margin: 44px 0 20px;
+	// background: blue;
 	::selection {
 		color: #e1e1e1;
 		background: #232323;
@@ -13,7 +14,7 @@
 		text-align: justify;
 		width: 850px;
 		margin: 0 auto;
-		font-weight: 100;
+		font-weight: 200;
 		font-size: 1rem;
 		line-height: 1.6;
 
@@ -25,10 +26,6 @@
 	@media (max-width: 1000px) {
 		.para-about {
 			width: 85%;
-		}
-	}
-	@media (max-width: 550px) {
-		.para-about {
 			font-size: 0.9rem;
 		}
 	}

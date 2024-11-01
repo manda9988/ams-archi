@@ -9,9 +9,7 @@ export const about = {
 
 		"Nous valorisons une architecture respectueuse de l'environnement, conçue pour répondre aux besoins spécifiques de chaque projet.",
 
-		"Grâce à l'innovation, la créativité, et une rigueur technique, nous aspirons à concevoir des bâtiments et des espaces qui enrichissent la qualité de vie et s'intègrent avec élégance à leur contexte. ",
-
-		"Notre passion pour l'architecture nourrit notre quête continue d'innovation et de durabilité, nous permettant de créer des lieux inspirants, marqués par leur excellence et leur intégration intemporelle."
+		"Grâce à l'innovation, la créativité, et une rigueur technique, nous aspirons à concevoir des bâtiments et des espaces qui enrichissent la qualité de vie et s'intègrent avec élégance à leur contexte. "
 	],
 	imageMain: ''
 };
@@ -23,8 +21,7 @@ export const projects = [
 		name2: 'CAPOU-FERRAND',
 		descriptions: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
-			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
-			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.'
 		],
 		imageMain: '/images/imgPro1/1.jpg',
 		images: [
@@ -41,8 +38,7 @@ export const projects = [
 		name2: 'Sainte-Anne',
 		descriptions: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
-			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
-			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.'
 		],
 		imageMain: '/images/imgPro2/3.jpg',
 		images: [
@@ -59,8 +55,7 @@ export const projects = [
 		name2: 'Le Gosier',
 		descriptions: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
-			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
-			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.'
 		],
 		imageMain: '/images/imgPro3/1.jpg',
 		images: [
@@ -78,8 +73,7 @@ export const projects = [
 		name2: 'Trois-Rivieres',
 		descriptions: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
-			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
-			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.'
 		],
 		imageMain: '/images/imgPro5/1.jpg',
 		images: [
@@ -97,8 +91,7 @@ export const projects = [
 		name2: 'Sydney',
 		descriptions: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula ante, commodo sit amet elit commodo, feugiat vulputate metus. Aliquam tortor erat, ullamcorper vel sodales sed, auctor eu felis. Suspendisse dui odio, tincidunt in placerat vitae, bibendum eu arcu.',
-			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.',
-			'Donec mollis leo velit. Etiam maximus leo ultricies purus condimentum laoreet. Ribendum scelerisque mauris, a eleifend nisl consequat a. Donec elementum, nulla vitae convallis ullamcorper, purus nunc mattis augue, eu dapibus quam dui sit amet eros.'
+			'Integer facilisis, ipsum eget fermentum placerat, quam ante vestibulum lacus, eu hendrerit magna urna iaculis lacus. Fusce quis fringilla risus, mattis sollicitudin enim.'
 		],
 		imageMain: '/images/imgPro6/1.jpg',
 		images: [
