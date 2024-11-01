@@ -3,14 +3,16 @@
 	width: 100%;
 	color: rgb(45, 45, 45);
 	padding: 20px 0;
-	margin: 44px 0 20px;
-	// background: blue;
+	margin: 36px 0;
+	background: rgb(92, 92, 255);
 	::selection {
 		color: #e1e1e1;
 		background: #232323;
 	}
 
 	.para-about {
+		background: rgb(62, 62, 62);
+
 		text-align: justify;
 		width: 850px;
 		margin: 0 auto;
