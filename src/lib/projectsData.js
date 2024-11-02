@@ -25,8 +25,8 @@ export const projects = [
 		],
 		imageMain: '/images/imgPro1/1.jpg',
 		images: [
-			'/images/imgPro1/1.jpg',
 			'/images/imgPro1/2.jpg',
+			'/images/imgPro1/1.jpg',
 			'/images/imgPro1/3.jpg',
 			'/images/imgPro1/4.jpg',
 			'/images/imgPro1/5.jpg'
@@ -59,9 +59,9 @@ export const projects = [
 		],
 		imageMain: '/images/imgPro3/1.jpg',
 		images: [
+			'/images/imgPro3/3.jpg',
 			'/images/imgPro3/1.jpg',
 			'/images/imgPro3/2.jpg',
-			'/images/imgPro3/3.jpg',
 			'/images/imgPro3/4.jpg',
 			'/images/imgPro3/5.jpg',
 			'/images/imgPro3/7.jpg'
@@ -77,8 +77,8 @@ export const projects = [
 		],
 		imageMain: '/images/imgPro5/1.jpg',
 		images: [
-			'/images/imgPro5/1.jpg',
 			'/images/imgPro5/2.jpg',
+			'/images/imgPro5/1.jpg',
 			'/images/imgPro5/3.jpg',
 			'/images/imgPro5/4.jpg',
 			'/images/imgPro5/5.jpg',
@@ -95,8 +95,8 @@ export const projects = [
 		],
 		imageMain: '/images/imgPro6/1.jpg',
 		images: [
-			'/images/imgPro6/1.jpg',
 			'/images/imgPro6/2.jpg',
+			'/images/imgPro6/1.jpg',
 			'/images/imgPro6/3.jpg',
 			'/images/imgPro6/4.jpg',
 			'/images/imgPro6/5.jpg',

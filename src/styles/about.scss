@@ -10,7 +10,7 @@
 
 	.para-about {
 		text-align: justify;
-		width: 850px;
+		width: 550px;
 		margin: 0 auto;
 		font-weight: 200;
 		font-size: 1rem;
@@ -23,12 +23,17 @@
 
 	@media (max-width: 1000px) {
 		.para-about {
-			width: 85%;
+			width: 65%;
 		}
 	}
-	@media (max-width: 850px) {
+	@media (max-width: 750px) {
 		.para-about {
 			font-size: 0.85rem;
+		}
+	}
+	@media (max-width: 500px) {
+		.para-about {
+			width: 85%;
 		}
 	}
 }
