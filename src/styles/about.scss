@@ -24,7 +24,11 @@
 	@media (max-width: 1000px) {
 		.para-about {
 			width: 85%;
-			font-size: 0.9rem;
+		}
+	}
+	@media (max-width: 850px) {
+		.para-about {
+			font-size: 0.85rem;
 		}
 	}
 }
