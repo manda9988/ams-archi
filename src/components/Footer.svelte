@@ -1,6 +1,6 @@
 <!-- footer.svelte -->
 <footer id="footer">
-	<div class="footer-container">
+	<div class="top-section">
 		<div class="contact-section">
 			<p>ams_ architects</p>
 			<p>ACMATTHIEU@GMAIL.COM</p>
@@ -11,7 +11,6 @@
 				<li>
 					<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
 				</li>
-
 				<li>
 					<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
 				</li>
