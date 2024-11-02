@@ -1,15 +1,15 @@
 <!-- layout.svelte -->
 
 <script>
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
-	import { setupHeightAdjustment } from '../lib/adjustHeight';
+	// import { setupHeightAdjustment } from '../lib/adjustHeight';
 
-	onMount(() => {
-		const cleanup = setupHeightAdjustment();
-		return cleanup;
-	});
+	// onMount(() => {
+	// 	const cleanup = setupHeightAdjustment();
+	// 	return cleanup;
+	// });
 </script>
 
 <Nav />
