@@ -1,52 +1,55 @@
-# ams-archi
+# **AMS-Architects**
 
-## Installation
+Site vitrine pour une agence d'architecture, présentant leurs projets et expertises.
 
-1. Clonez le dépôt :
+---
 
+## **À propos du projet**
+
+- **Page d'accueil** : Introduction à l'agence avec un design épuré et une navigation fluide.
+- **Projets** : Galerie des réalisations avec détails sur chaque projet.
+- **Responsive Design** : Adapté à toutes les tailles d'écran.
+
+---
+
+## **Technologies utilisées**
+
+- **SvelteKit** : Framework pour une expérience utilisateur rapide et fluide.
+- **SCSS** : Styles modulaires pour un design personnalisé.
+- **TypeScript** : Typage strict pour la fiabilité du code.
+- **Vite** : Environnement de développement rapide.
+
+---
+
+## **Installation rapide**
+
+1. **Cloner le projet** :
    ```bash
-   git clone <URL_DU_DEPOT>
+   git clone https://github.com/manda9988/ams-archi.git
+   cd ams-archi
    ```
-
-2. Installez les dépendances :
+2. **Installer les dépendances** :
    ```bash
    npm install
    ```
+3. **Démarrer le serveur local** :
+   ```bash
+   npm run dev
+   ```
+   Accéder au site : `http://localhost:5173`
 
-## Scripts
+---
 
-- `dev`: Lance le serveur de développement.
-- `build`: Construit le projet pour la production.
-- `preview`: Prévisualise le build de production.
-- `check`: Synchronise et vérifie le code TypeScript.
-- `check:watch`: Synchronise et vérifie le code TypeScript en mode watch.
-- `lint`: Vérifie la qualité du code avec Prettier et ESLint.
-- `format`: Formate le code avec Prettier.
+## **Structure du projet**
 
-## Usage
+- **`/src/routes/+page.svelte`** : Page principale avec import des composants clés (About, Projects).
+- **`/src/components`** : Composants réutilisables (About, Projects, Footer).
+- **`/src/lib/projectsData.js`** : Données des projets affichés dynamiquement.
+- **`svelte.config.js` et `vite.config.js`** : Configuration du projet.
 
-Pour lancer le projet en mode développement :
+---
 
-```bash
-npm run dev
-```
+## **Auteur**
 
-Pour construire le projet pour la production :
-
-```bash
-npm run build
-```
-
-Pour prévisualiser le build de production :
-
-```bash
-npm run preview
-```
-
-## Technologies
-
-- [Svelte](https://svelte.dev)
-- [SvelteKit](https://kit.svelte.dev)
-- [Vite](https://vitejs.dev)
-- [Sass](https://sass-lang.com)
-- [TypeScript](https://www.typescriptlang.org)
+**Vincent Achy**  
+[LinkedIn](https://www.linkedin.com/in/vincent-achy-1704421a9/) | [GitHub](https://github.com/manda9988)
